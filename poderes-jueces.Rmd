@@ -1,0 +1,685 @@
+---
+title: "M1. Los conflictos laborales"
+author: "Paul Paredes"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css", "css/mi-css.css"]
+    seal: false
+    anchor_sections: false
+    self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+```
+
+class: center middle main-title section-title-4
+
+# Los poderes de los<br>jueces
+
+.class-info[
+
+**Paul Paredes**
+
+.light[
+**TSS603 Procesos laborales<br>
+Maestría en Derecho del Trabajo y de la Seguridad Social<br>
+Pontificia Universidad Católica del Perú
+]
+
+**5 de abril de 2021**
+
+]
+
+---
+
+class: middle
+
+.box-4.huge[M1. Los conflictos laborales<br>C2. Los poderes de los jueces]
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Plan de la clase
+
+&nbsp;
+
+.box-inv-4[Principios y fundamentos del proceso laboral]
+
+&nbsp;
+
+.box-inv-4[Rol de los jueces y las altas cortes]
+
+
+---
+
+layout: false
+name: poderes-jueces
+class: center middle section-title section-title-4 animated fadeIn
+
+# Principios y fundamentos del proceso laboral
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# El Código Civil francés de 1804
+
+--
+
+&nbsp;
+
+.box-4.normal["1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."]
+
+.box-inv-4.normal["Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".]
+
+---
+
+# ¿Por qué un proceso laboral?
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+
+# Couture (1979)
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Un nuevo Derecho procesal, extraño a todos los principios tradicionales, sin exceptuar uno solo de ellos, ha debido surgir para establecer, mediante una nueva desigualdad, la igualdad perdida por la distinta condición que tienen en el orden económico de la vida, los que ponen su trabajo como sustancia del contrato, y los que se sirven de él para la satisfacción de sus intereses.]
+
+---
+
+# Proceso laboral
+
+.box-inv-4.medium[Desigualdad como fundamento del proceso laboral (dos perspectivas)]
+
+.pull-left[
+.box-4.normal[La desigualdad material y la igualdad por compensación]
+]
+
+.pull-right[
+.box-4.normal[La igualdad en el principio dispositivo, pero donde se reconoce que las partes no son soberanas ni iguales.]
+]
+
+---
+
+# Proceso laboral. Dos modelos
+
+--
+
+&nbsp;
+
+.pull-left[
+.box-inv-4.medium[De la igualdad (formal) de las partes y el juez director.]
+]
+
+.pull-right[
+.box-4.medium[A la igualdad efectiva de las partes (a través de la ley) y el juez director del proceso.]
+]
+
+---
+
+# Proceso y prueba. Dos modelos
+
+--
+
+.pull-left[
+.box-inv-4.normal[Del proceso como mecanismo de resolución de conflictos, dependiente de la habilidad del abogado alejado de la verdad.]
+]
+
+.pull-right[
+.box-4.medium[Al proceso como solución de conflictos aplicando Derecho a los hechos ocurridos en la realidad.]
+]
+
+---
+
+# La oralidad
+
+.box-inv-4.normal[La oralidad como negación de la justicia de la igualdad formal:]
+
+.pull-left[
+.box-4.normal[Oralidad]
+.box-4.normal[Inmediación]
+.box-4.normal[Concentración]
+.box-4.normal[Publicidad]
+.box-4.normal[Economía]
+.box-4.normal[Celeridad]
+.box-4.normal[Escritura]
+]
+
+.pull-right[
+.box-inv-4.normal[No inmediación]
+.box-inv-4.normal[No concentración]
+.box-inv-4.normal[No publicidad]
+.box-inv-4.normal[No economía]
+.box-inv-4.normal[No celeridad]
+]
+
+---
+
+# La oralidad
+
+&nbsp;
+
+--
+
+.box-inv-4.medium[Es el símbolo contra la justicia del juez convidado de piedra.]
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[La oralidad no es "técnicas que litigación oral".]
+
+???
+
+¿Por qué (debe haber) un proceso laboral?
+
+Poder. Estado social. 
+  + Intervención en la economía para asegurar ciertos derechos básicos
+
+Justicia
+  + Justicia distributiva
+  
+  + Justicia correctiva (conmutativa)
+
+Igualdad (en la distribución)
+  + De características
+  + De trato (a los iguales, misma categoría)
+    + a c/u lo mismo
+    + a c/u lo de la ley
+    + a c/u según su rango
+    + a c/u según su mérito
+    + a c/u según su trabajo
+    + a c/u según su necesidad
+
+Igualdad (¿cómo distribuir?)
+  + En el proceso de distribución igualitario
+  + En el resultado igualitario
+  
+Tres nociones de igualdad en las constituciones
+
+1. Igualdad política
+  + Reparto del poder político en una sociedad
+  + Participación en la producción de las normas jurídicas
+
+2. Igualdad ante la ley
+  + Normas generales y no arbitrarias: casos iguales, se resuelven iguales
+  + Prohibición de discriminar: (no siempre hay que tratar igual a todos en ciertas circunstancias, pero nunca se puede utilizar ciertas características para diferenciar el trato)
+
+3. Igualdad en la ley (a través de la ley)
+  + La aplicación del Derecho debe producir resultados igualitarios en cuanto a las condiciones de vida de los ciudadanos
+  + Podría parecer ir contra la igualdad ante la ley en abstracto (acción afirmativa)
+
+Couture
+
+**Couture** planteó que la razón de ser del Derecho procesal del trabajo era asegurar ciertos resultados mínimos de justicia dentro de la desigual relación del trabajo, y que para lograrlo era necesario establecer la igualdad mediante una desigualdad: la igualdad por compensación.
+
+Pregunta:
+¿Qué noción de igualdad daría respaldo a la postura de Couture?
+
+Impacto de la desigualdad (económica y social)
+
++ En la configuración de las relaciones laborales
+
++ En el valor epistémico de la prueba
+
++ En valores de política pública (p. ej. la justicia distributiva)
+
+La desigualdad como fundamento del proceso laboral (dos perspectivas)
+
+1. La desigualdad material y la igualdad por compensación
+
+2. La igualdad en el principio dispositivo
+
+PRINCIPIO DISPOSITIVO
+
+2. La igualdad en el principio dispositivo
+
+1. El principio dispositivo (según lo alegado y probado) prohíbe apreciar, de oficio, hechos relevantes que constan en el proceso pero que no han sido propuestos expresamente por las partes.
+
+2. De vincular al juez a lo alegado y probado no se sigue, necesariamente, que la actuación del juez esté completamente sometida a las partes.
+
+Principio dispositivo
+
++ Afirmar la sujeción del juez a la soberanía de las partes camufla una idea de desigualdad: si las partes son soberanas, entonces, son igualmente soberanas.
+
++ ¿Son las partes iguales?
+
++ Si todo se deja al principio dispositivo (en su versión más restrictiva), entonces se niega el derecho de defensa de una de las partes.
+
++ Se trata de afirmar el p. dispositivo pero sin llevar a convertir al proceso en "una cosa de las partes"
+
++ Presencia de algunas notas del p. inquisitivo en clave de optimización de la decisión. 
+
++ Pero también en clave de optimización epistémica (evitar que se cree una realidad paralela y el sistema procesal no tendría nada que decir)
+
+---
+
+# La igualdad por compensación
+
+.box-4.normal[La igualdad por compensación: el procedimiento lógico de corregir las desigualdades es el crear otras desigualdades]
+
+.box-inv-4.small[El principio de imparcialidad: igualdad de armas]
+
+.box-inv-4.small[Quien produce y conserva un medio de prueba | Sin acceso al medio de prueba]
+
+.box-inv-4.small[Quien dispone cómo ejecutar un servicio y cómo se deja constancia de ello | Quien está sometido a las órdenes]
+
+.box-inv-4.small[La igualdad de armas es un objetivo por cumplir]
+
+.box-inv-4.small[Importancia de los poderes del juez]
+
+---
+
+# La igualdad por compensación
+
+.box-inv-4.medium[La igualdad por compensación se posiciona como el fundamento de las actuaciones procesales en los conflictos laborales.]
+
+---
+
+# Tres datos 
+
+.box-4.normal[Tres datos como respaldo epistémico a la desigualdad de las relaciones jurídicas laborales en el Perú]
+
+.box-inv-4.normal[Informalidad laboral: en 2015, 55.5%; en microempresas, 88.7%]
+
+.box-inv-4.normal[Contratos a plazo fijo: 78% fijos vs. 22% indeterminado]
+
+.box-inv-4.normal[Sindicación y cobertura de la negociación colectiva: 6% y 5.1%, respectivamente.]
+
+---
+
+# Mario Pasco. Fundamentos de DPT
+
+## Principios del derecho procesal del trabajo 
+
+### A. VERACIDAD 
+1. Limitación al formalismo (prevalencia fondo sobre forma)
+  + simplicidad 
+  + prohibición de pruebas (juramento decisorio)
+  + relativización de ciertas pruebas (declaración de parte, confesión, instrumentos)
+  + libertad probatoria 
+
+---
+
+# Mario Pasco. Fundamentos de DPT
+
+## Principios del derecho procesal del trabajo 
+
+2.Ampliación facultades juez
+  + inhibición de oficio 
+  + suplencia demanda 
+  + impulso procesal 
+  + sentencia inmediata 
+
+3.Facultad ultra y extra petita 
+
+---
+
+# Mario Pasco. Fundamentos de DPT
+
+## Principios del derecho procesal del trabajo 
+
+### B. PRINCIPIO PROTECTOR 
+
+1. Reglas pro operario 
+  + Retroactividad 
+  + In dubio pro operario 
+  + Norma más favorable 
+  + Condición más beneficiosa 
+
+2. Iniciativa de oficio del proceso 
+
+---
+
+# Mario Pasco. Fundamentos de DPT
+
+## Principios del derecho procesal del trabajo
+
+3.Redistribución de la carga de la prueba 
+
+4.Otras normas de protección 
+  + Gratuidad 
+  + Defensa gratuita 
+  + Oralidad, concentración, inmediación, celebridad 
+
+5.Ponderación ecuánime del principio protector 
+
+---
+
+# Mario Pasco. Fundamentos de DPT
+
+## Principios del derecho procesal del trabajo 
+
+### C. CRITERIO DE CONCIENCIA Y EQUIDAD 
+1. Criterio de conciencia en la evaluación de las pruebas 
+2. Equidad 
+
+### Tres funciones de los principios 
+1. Informadora. Inspira al legislador. 
+2. Normativa. Fuente supletoria. 
+3. Interpretadora. 
+
+---
+class: animated, fadeIn
+
+# NLPT
+
+> **Artículo I.- Principios del proceso laboral**
+
+> El proceso laboral se inspira, entre otros, en los principios de inmediación, oralidad, concentración, celeridad, economía procesal y veracidad.
+	
+---
+class: animated, fadeIn
+
+# NLPT
+
+> **Artículo II.- Ámbito de la justicia laboral**
+> Corresponde a la justicia laboral resolver los conflictos jurídicos que se originan con ocasión de las prestaciones de servicios de carácter personal, de naturaleza laboral, formativa, cooperativista o administrativa; están excluidas las prestaciones de servicios de carácter civil, salvo que la demanda se sustente en el encubrimiento de relaciones de trabajo. Tales conflictos jurídicos pueden ser individuales, plurales o colectivos, y estar referidos a aspectos sustanciales o conexos, incluso previos o posteriores a la prestación efectiva de los servicios.
+
+---
+class: animated, fadeIn
+
+# NLPT 
+
+>**Artículo III.- Fundamentos del proceso laboral**
+
+>En todo proceso laboral los jueces deben evitar que la desigualdad entre las partes afecte el desarrollo o resultado del proceso, para cuyo efecto procuran alcanzar la igualdad real de las partes, privilegian el fondo sobre la forma, interpretan los requisitos y presupuestos procesales en sentido favorable a la continuidad del proceso, observan el debido proceso, la tutela jurisdiccional y el principio de razonabilidad. En particular, acentúan estos deberes frente a la madre gestante, el menor de edad y la persona con discapacidad.
+
+---
+
+# NLPT
+
+> Los jueces laborales tienen un rol protagónico en el desarrollo e impulso del proceso. Impiden y sancionan la inconducta contraria a los deberes de veracidad, probidad, lealtad y buena fe de las partes, sus representantes, sus abogados y terceros.
+
+> El proceso laboral es gratuito para el prestador de servicios, en todas las instancias, cuando el monto total de las pretensiones reclamadas no supere las setenta (70) Unidades de Referencia Procesal (URP).
+
+---
+class: animated, fadeIn
+
+# NLPT
+
+> Artículo IV.- Interpretación y aplicación de las normas en la resolución de los conflictos de la justicia laboral
+
+> Los jueces laborales, bajo responsabilidad, imparten justicia con arreglo a la Constitución Política del Perú, los tratados internacionales de derechos humanos y la ley. Interpretan y aplican toda norma jurídica, incluyendo los convenios colectivos, según los principios y preceptos constitucionales, así como los precedentes vinculantes del Tribunal Constitucional y de la Corte Suprema de Justicia de la República.
+
+---
+
+layout: false
+name: altas-cortes
+class: center middle section-title section-title-4 animated fadeIn
+
+# Rol de los jueces y las altas cortes
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Suplencia de la demanda
+
+&nbsp;
+
+.box-inv-4.large[¿Petitorio o pretensión implícitos?]
+
+---
+class: animated, fadeIn, middle
+
+# CAS LAB 16940-2017 (5.12.2019)
+
+> **Décimo Segundo:** Tal como se ha descrito, la litis ha discurrido respecto a la reposición por un despido incausado, al haberlo así propuesto el actor en su escrito de demanda, mas no, la desnaturalización de los contratos, lo que no importó que se ejerza también la defensa en dicho sentido, lo que conlleva a establecer que al haberse sentenciado, y otorgado el derecho por una pretensión no postulada, como es el caso de la desnaturalización de los contratos, se ha violentado el principio de congruencia procesal y por ende el debido proceso. 
+
+???
+
+1. Una propuesta de solución
+
++ Las oraciones y las proposiciones en el derecho
+
++ Las oraciones: conjunto de símbolos lingüísticos con sentido completo:
+  + [ ] UNMSM
+  + [ ] deseoso Lima estaba fruta aromática en otro
+  + [ ] La Ciudad Blanca es la capital de Perú
+
+2. Una propuesta de solución
+
++ Es usual distinguir entre oraciones asertivas (descriptivas::proposiciones) (V/F) y oraciones directivas (prescriptivas::normas) (Jus/Inj; Vál/Inv; Efi/Inef)
+
+  + [ ] Juan trabaja en el Poder Judicial
+  + [ ] María es mayor de edad
+  + [ ] Está prohibido fumar en clase
+  + [ ] Quien por dolo causa un daño a otro está obligado a repararlo
+
+3. Una propuesta de solución
+
+Las proposiciones son el significado expresado por las oraciones asertivas
+
+  + María tiene 25 años de edad.
+  + La edad de María es de 25 años.
+  + Hace 25 años nació María.
+  + María le lleva 3 años a su hermano Jorge quien ya tiene 22 años cumplidos.
+  + No veo a María desde que cumplió 20 años. Han pasado 5 años desde ese entonces.
+
++ Varias oraciones asertivas pueden expresar la misma proposición
+
++ Los razonamientos se dan entre las proposiciones.
+
+  =
+
++ Las premisas de los razonamientos son proposiciones y de estas se infiere otra proposición que es la conclusión.
+
++ Las premisas y conclusiones permiten construir cadenas argumentativas, conformadas por proposiciones.
+
+---
+
+# Una propuesta de solución (1)
+
+.box-inv-4[Una conclusión no es sino una proposición derivada de una cadena argumentativa (los razonamientos) integrada por una serie de proposiciones.]
+
+.box-inv-4[Esa conclusión podría ser el petitorio o la pretensión.]
+
+---
+
+# Una propuesta de solución (2)
+
+.box-inv-4[¿Qué significaría la suplencia de la demanda en este contexto?]
+
+--
+
+.box-4["La determinación de la cadena de proposiciones]
+
+--
+
+.box-inv-4[¿Qué sería el petitorio implícito?]
+
+--
+
+.box-inv-4["La cadena de proposiciones que deriva **en** la pretensión explícita."]
+
+---
+class: animated, slideInRight
+layout: false
+
+
+![](https://raw.githubusercontent.com/PaulParedes/materiales/master/mermaid-implicito.svg)
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Petitorio o pretensión implícitos?
+
+.box-inv-4.medium[CAS LAB 16940-2017 (5 de diciembre de 2019)]
+
+.box-inv-4[El "petitorio implícito" ¿afecta la congruencia?]
+
+.box-inv-4[El "petitorio implícito" ¿vulnera el derecho de defensa?]
+
+---
+
+# La casación. Causales.
+  
+.box-inv-4[1.Infracción normativa que incide directamente sobre la decisión contenida en la resolución impugnada.]
+
+.box-inv-4[2.Apartamiento de los precedentes vinculantes del TC o la CS.]
+
+.box-inv-4[+(¿apartamiento inmotivado? ~ art. 386 CPC)]
+
+???
+
+> Ley 26636 | *Artículo 56.- CAUSALES.- Son causales para interponer el recurso de casación:*
+
+>	*a) La aplicación indebida de una norma de derecho material.*
+
+>	*b) La interpretación errónea de una norma de derecho material.*
+
+>	*c) La inaplicación de una norma de derecho material.*
+
+>	*d) La contradicción con otras resoluciones expedidas por la Corte Suprema de Justicia o las Cortes Superiores, pronunciadas en casos objetivamente similares, siempre que dicha contradicción esté referida a una de las causales anteriores.*
+
+---
+
+# Cas. Prec. vinculantes. Art. 40.° NLPT
+
+.box-inv-4[La SCyS-CSJR **convoca** al pleno de los jueces supremos en materia constitucional y social.]
+.box-inv-4[**Finalidad::** constituir o variar un precedente judicial.]
+.box-inv-4[**Decisión::** por mayoría absoluta de los asistentes al pleno casatorio.]
+.box-inv-4[**Consecuencia:: .red[vincula]** a los órganos jurisdiccionales hasta que sea modificada por otro precedente.]
+.box-inv-4[Los abogados pueden **informar oralmente** en la vista de la causa ante el pleno casatorio.]
+
+---
+
+# La casación. Finalidad.
+
+> Artículo 384.- Fines de la casación
+El recurso de casación tiene por fines la adecuada aplicación del derecho objetivo al caso concreto y la uniformidad de la jurisprudencia nacional por la Corte Suprema de Justicia. (Ley 29364, del 28 mayo 2009).
+
+> Artículo  384.- El recurso de casación tiene por fines esenciales la correcta aplicación e interpretación del derecho objetivo y la unificación de la jurisprudencia nacional por la Corte Suprema de Justicia. (Original).
+
+???
+
+La casación. Fines.
+
+1. Función de nomofilaquia::
+
+ a) Poner en evidencia los errores. Modelo de tercera instancia.
+
+ b) Interpretación | justa | adecuada | correcta | mejor | ajustada a los valores, bienes, principios constitucionales | de la norma.
+
+> CS elige entre valores. ¿Hacer derecho? Modelo de Corte Suprema.
+
+2. Uniformidad (de la interpretación de la ley) por medio de la jurisprudencia nacional.
+ 
+ a) Mera y formal unificación de la jurisprudencia. Modelo de tercera instancia.
+ 
+ b) Uniformidad de la interpretación en los supuestos de hecho. (¿conservador vs. innovación?)
+ 
+  > El precedente se vuelve significativo. Referencia para jurisprudencia uniforme.
+  
+  > El cambio de precedente rompe la uniformidad para crear una nueva.
+ 
+---
+
+# El rol de la Corte Suprema
+
+.box-inv-4[Distinguir entre:]
+
+.box-inv-4[1.Resoluciones emitidas en casación. Jurisprudencia. (art. 31, 39 NLPT).]
+
+.box-inv-4[2.Resoluciones emitidas en casación. Precedentes vinculantes. (art. 40 NLPT) ~~ (art. 400 CPC).]
+
+.box-inv-4[3.Plenos jurisdiccionales supremos en materia laboral. (art. 22 y 116 LOPJ).]
+
+---
+
+# Doctrina jurisprudencial (1)
+
+.box-inv-4[¿Carácter vinculante de la doctrina jurisprudencial?]
+
+> Artículo 22.- Las Salas Especializadas de la Corte Suprema de Justicia de la República ordenan la publicación trimestral en el Diario Oficial "El Peruano" de las Ejecutorias que fijan principios jurisprudenciales que han de ser de obligatorio cumplimiento, en todas las instancias judiciales.]
+
+---
+
+# Doctrina jurisprudencial (2)
+
+> Estos principios deben ser invocados por los Magistrados de todas las instancias judiciales, cualquiera que sea su especialidad, como precedente de obligatorio cumplimiento. En caso que por excepción decidan apartarse de dicho criterio, están obligados a motivar adecuadamente su resolución dejando constancia del precedente obligatorio que desestiman y de los fundamentos que invocan.
+
+---
+
+# Doctrina jurisprudencial (3)
+
+> Los fallos de la Corte Suprema de Justicia de la República pueden excepcionalmente apartarse en sus resoluciones jurisdiccionales, de su propio criterio jurisprudencial, motivando debidamente su resolución, lo que debe hacer conocer mediante nuevas publicaciones, también en el Diario Oficial "El Peruano", en cuyo caso debe hacer mención expresa del precedente que deja de ser obligatorio por el nuevo y de los fundamentos que invocan.
+
+---
+
+# Plenos jurisdiccionales
+
+.box-inv-4[Plenos laborales nacionales, regionales o distritales.]
+
+> Plenos jurisdiccionales.
+
+> Artículo 116.- Los integrantes de las Salas Especializadas, pueden reunirse en plenos jurisdiccionales nacionales, regionales o distritales a fin de concordar jurisprudencia de su especialidad, a instancia de los órganos de apoyo del Poder Judicial.
+
+---
+class: animated, fadeIn
+
+# Sala plena de la Corte Suprema
+
+> Artículo 80.- Atribuciones de la Sala Plena de la Corte Suprema
+Son atribuciones de la Sala Plena de la Corte Suprema de Justicia de la República:
+
+> 4.Sistematizar y difundir la jurisprudencia de las Salas Especializadas de la Corte Suprema y disponer la publicación trimestral de las Ejecutorias que fijen principios jurisprudenciales que han de ser de obligatorio cumplimiento en todas las instancias judiciales.
+
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+
+```{r echo=FALSE, include=FALSE, eval=FALSE}
+pagedown::chrome_print("poderes-jueces.html", 
+                       output = "poderes-jueces.pdf")
+```

@@ -1,0 +1,482 @@
+---
+title: "Seminario Girona"
+author: "Paul Paredes"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css", "css/mi-css.css"]
+    seal: false
+    anchor_sections: false
+    self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+```
+
+class: center middle main-title section-title-4
+
+# Seminario
+
+.class-info[
+
+**Paul Paredes**
+
+.light[
+Máster en Razonamiento Probatorio<br>
+Universitat de Girona
+]
+
+**17 de abril de 2021**
+
+]
+
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Plan de la exposición
+
+&nbsp;
+
+.box-inv-4.large[El TFM: la investigación]
+
+&nbsp;
+
+.box-inv-4.large[El TFM: el resultado]
+
+
+---
+
+layout: false
+name: investigacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# El TFM: la investigación
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# Investigando (1)
+
+--
+
+.box-inv-4.medium[Elección del tema]
+
+--
+
+.box-inv-4.medium[Elección del asesor]
+
+--
+
+.center.float-left[.box-inv-4.medium[Leer] .box-inv-4.medium[leer] .box-inv-4.medium[leer]]
+
+--
+&nbsp;
+
+.box-4.medium[(también en inglés)]
+
+---
+
+# Investigando (2)
+
+--
+
+.pull-left[
+.box-4[Argumentación]
+
+.center.float-left[.box-inv-4[Atienza] .box-inv-4[Toulmin] .box-inv-4[Lo Cascio]]
+
+.center.float-left[.box-inv-4[MacCormick] .box-inv-4[Moreso]]
+
+.center.float-left[.box-inv-4[Walton] .box-inv-4[González Lagier]]
+
+]
+
+--
+
+.pull-right[
+.box-4[Teoría de la prueba]
+
+.center.float-left[.box-inv-4[Taruffo] .box-inv-4[Ferrer] .box-inv-4[Vázquez]]
+
+.center.float-left[.box-inv-4[Anderson] .box-inv-4[Schum] .box-inv-4[Twining]]
+
+.center.float-left[.box-inv-4[Haack] .box-inv-4[Allen] .box-inv-4[Laudan]]
+
+.center.float-left[.box-inv-4[Aguilera] .box-inv-4[Bárcenas]]
+
+.center.float-left[.box-inv-4[Papayannis]]
+
+]
+
+---
+
+# Herramientas
+
+--
+
+.pull-left[
+.box-4[Gestores de bibliografía]
+
+.center.float-left[.box-inv-4[Mendeley] .box-inv-4[RefWorks]]
+
+.center.float-left[.box-inv-4[Zotero]]
+
+]
+
+--
+
+.pull-right[
+.box-4[Procesadores de texto]
+
+.center.float-left[.box-inv-4[Latex]]
+
+.center.float-left[.box-inv-4[Lyx] .box-inv-4[Markdown]]
+
+]
+
+---
+
+layout: false
+name: resultado
+class: center middle section-title section-title-4 animated fadeIn
+
+# TFM<br>*El principio de facilitación probatoria en el proceso laboral*
+
+---
+class: animated, fadeIn
+
+.pull-left[
+<figure>
+  <img src="./img/delderecho.jpg" alt="Del Derecho al razonamiento probatorio" title="Del Derecho al razonamiento probatorio" width="80%">
+</figure>
+]
+
+.pull-right[
+
+.box-4[Contiene los trabajadores de:]
+
+.center.float-left[.box-inv-4[Edgar Aguilera] .box-inv-4[Antonio Vieira]]
+
+.center.float-left[.box-inv-4[Paul Paredes]]
+
+.center.float-left[.box-inv-4[María de Jesús García]]
+
+.center.float-left[.box-inv-4[Alejo Joaquín]]
+
+.center.float-left[.box-inv-4[Santiago Sánchez]]
+
+.center.float-left[.box-inv-4[Miguel Ángel Muñoz]]
+
+.center.float-left[.box-inv-4[Andrés Fuchs]]
+
+]
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# El principio de facilitación probatoria ...
+
+--
+
+.center.float-left[.box-inv-4[Prueba] .box-inv-4[Proceso] .box-inv-4[Derecho (del trabajo)]]
+
+--
+
+&nbsp;
+
+.center.float-left[.box-inv-4[Rol del juez] .box-inv-4[Función del proceso] .box-inv-4[Finalidad de la prueba]]
+
+--
+
+&nbsp;
+
+.center.float-left[.box-4.small[Conflictos (desigualdad)] .box-4.small[Medios de solución] .box-4.small[Resultado: cómo *es* la decisión]]
+
+
+---
+
+# El Código Civil francés de 1804
+
+--
+
+&nbsp;
+
+.box-4.normal["1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."]
+
+.box-inv-4.normal["Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".]
+
+---
+
+# ¿Por qué un proceso laboral?
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+
+# Tres datos 
+
+.box-4.normal[Tres datos como respaldo epistémico a la desigualdad de las relaciones jurídicas laborales en el Perú]
+
+.box-inv-4.normal[Informalidad laboral: en 2015, 55.5%; en microempresas, 88.7%]
+
+.box-inv-4.normal[Contratos a plazo fijo: 78% fijos vs. 22% indeterminado]
+
+.box-inv-4.normal[Sindicación y cobertura de la negociación colectiva: 6% y 5.1%, respectivamente.]
+
+
+---
+
+# Couture (1979)
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Un nuevo Derecho procesal, extraño a todos los principios tradicionales, sin exceptuar uno solo de ellos, ha debido surgir para establecer, mediante una nueva desigualdad, la igualdad perdida por la distinta condición que tienen en el orden económico de la vida, los que ponen su trabajo como sustancia del contrato, y los que se sirven de él para la satisfacción de sus intereses.]
+
+---
+
+# Proceso laboral
+
+.box-inv-4.medium[Desigualdad como fundamento del proceso laboral (dos perspectivas)]
+
+.pull-left[
+.box-4.normal[La desigualdad material y la igualdad por compensación]
+]
+
+.pull-right[
+.box-4.normal[La igualdad en el principio dispositivo, pero donde se reconoce que las partes no son soberanas ni iguales.]
+]
+
+---
+
+# Proceso laboral. Dos modelos
+
+--
+
+&nbsp;
+
+.pull-left[
+.box-inv-4.medium[DE la igualdad (formal) de las partes y el juez espectador]
+]
+
+.pull-right[
+.box-4.medium[A la igualdad efectiva de las partes (a través de la ley) y el juez director del proceso]
+]
+
+---
+
+# Proceso y prueba. Dos modelos
+
+--
+
+.pull-left[
+.box-inv-4[DEL proceso como mero mecanismo de resolución de conflictos, dependiente de la habilidad del abogado alejado de la verdad (verdad como persuasión)]
+]
+
+.pull-right[
+.box-4[AL proceso como solución de conflictos aplicando Derecho a los hechos ocurridos en la realidad (verdad como correspondencia)]
+]
+
+---
+
+# La oralidad
+
+.box-inv-4.normal[La oralidad como negación de la justicia de la igualdad formal:]
+
+.pull-left[
+.box-4.normal[Oralidad]
+.box-4.normal[Inmediación]
+.box-4.normal[Concentración]
+.box-4.normal[Publicidad]
+.box-4.normal[Economía]
+.box-4.normal[Celeridad]
+.box-4.normal[Escritura]
+]
+
+.pull-right[
+.box-inv-4.normal[No inmediación]
+.box-inv-4.normal[No concentración]
+.box-inv-4.normal[No publicidad]
+.box-inv-4.normal[No economía]
+.box-inv-4.normal[No celeridad]
+]
+
+---
+
+# La oralidad
+
+&nbsp;
+
+--
+
+.box-inv-4.medium[Es el símbolo contra la justicia del juez convidado de piedra.]
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[La oralidad no es "técnicas que litigación oral".]
+
+???
+
+¿Por qué (debe haber) un proceso laboral?
+
+Poder. Estado social. 
+  + Intervención en la economía para asegurar ciertos derechos básicos
+
+Justicia
+  + Justicia distributiva
+  
+  + Justicia correctiva (conmutativa)
+
+Igualdad (en la distribución)
+  + De características
+  + De trato (a los iguales, misma categoría)
+    + a c/u lo mismo
+    + a c/u lo de la ley
+    + a c/u según su rango
+    + a c/u según su mérito
+    + a c/u según su trabajo
+    + a c/u según su necesidad
+
+Igualdad (¿cómo distribuir?)
+  + En el proceso de distribución igualitario
+  + En el resultado igualitario
+  
+Tres nociones de igualdad en las constituciones
+
+1. Igualdad política
+  + Reparto del poder político en una sociedad
+  + Participación en la producción de las normas jurídicas
+
+2. Igualdad ante la ley
+  + Normas generales y no arbitrarias: casos iguales, se resuelven iguales
+  + Prohibición de discriminar: (no siempre hay que tratar igual a todos en ciertas circunstancias, pero nunca se puede utilizar ciertas características para diferenciar el trato)
+
+3. Igualdad en la ley (a través de la ley)
+  + La aplicación del Derecho debe producir resultados igualitarios en cuanto a las condiciones de vida de los ciudadanos
+  + Podría parecer ir contra la igualdad ante la ley en abstracto (acción afirmativa)
+
+Couture
+
+**Couture** planteó que la razón de ser del Derecho procesal del trabajo era asegurar ciertos resultados mínimos de justicia dentro de la desigual relación del trabajo, y que para lograrlo era necesario establecer la igualdad mediante una desigualdad: la igualdad por compensación.
+
+Pregunta:
+¿Qué noción de igualdad daría respaldo a la postura de Couture?
+
+Impacto de la desigualdad (económica y social)
+
++ En la configuración de las relaciones laborales
+
++ En el valor epistémico de la prueba
+
++ En valores de política pública (p. ej. la justicia distributiva)
+
+La desigualdad como fundamento del proceso laboral (dos perspectivas)
+
+1. La desigualdad material y la igualdad por compensación
+
+2. La igualdad en el principio dispositivo
+
+PRINCIPIO DISPOSITIVO
+
+2. La igualdad en el principio dispositivo
+
+1. El principio dispositivo (según lo alegado y probado) prohíbe apreciar, de oficio, hechos relevantes que constan en el proceso pero que no han sido propuestos expresamente por las partes.
+
+2. De vincular al juez a lo alegado y probado no se sigue, necesariamente, que la actuación del juez esté completamente sometida a las partes.
+
+Principio dispositivo
+
++ Afirmar la sujeción del juez a la soberanía de las partes camufla una idea de desigualdad: si las partes son soberanas, entonces, son igualmente soberanas.
+
++ ¿Son las partes iguales?
+
++ Si todo se deja al principio dispositivo (en su versión más restrictiva), entonces se niega el derecho de defensa de una de las partes.
+
++ Se trata de afirmar el p. dispositivo pero sin llevar a convertir al proceso en "una cosa de las partes"
+
++ Presencia de algunas notas del p. inquisitivo en clave de optimización de la decisión. 
+
++ Pero también en clave de optimización epistémica (evitar que se cree una realidad paralela y el sistema procesal no tendría nada que decir)
+
+---
+
+# La igualdad por compensación
+
+.box-4.normal[La igualdad por compensación: el procedimiento lógico de corregir las desigualdades es el crear otras desigualdades]
+
+.box-inv-4.small[El principio de imparcialidad: igualdad de armas]
+
+.box-inv-4.small[Quién produce y conserva un medio de prueba vs. con dificultad o sin acceso al medio de prueba]
+
+.box-inv-4.small[Quién dispone cómo ejecutar un servicio y cómo se deja constancia de ello vs. quién está sometido a las órdenes]
+
+.box-inv-4.small[La igualdad de armas es un objetivo por cumplir]
+
+.box-inv-4.small[Importancia de los poderes del juez]
+
+---
+
+# La igualdad por compensación
+
+.box-inv-4.medium[La igualdad por compensación se posiciona como el fundamento de las actuaciones procesales en los conflictos laborales.]
+
+***
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+## pgparede@pucp.pe
+
+
+```{r echo=FALSE, include=FALSE, eval=FALSE}
+pagedown::chrome_print("paulparedes-seminario-girona.html", 
+                       output = "paulparedes-seminario-girona.pdf")
+```
