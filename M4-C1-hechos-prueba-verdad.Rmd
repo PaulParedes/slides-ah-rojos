@@ -1,0 +1,776 @@
+---
+title: "Procesos laborales M4 C1"
+author: "Paul Paredes"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/ath-inferno-fonts.css", "css/animate.css", "css/mi-css.css"]
+    seal: false
+    anchor_sections: false
+    self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+```
+
+class: center middle main-title section-title-4
+
+# Hechos, prueba y verdad
+
+.class-info[
+
+**Paul Paredes**
+
+.light[
+TSS603 Procesos laborales<br>
+Maestría en Derecho del Trabajo y de la Seguridad Social<br>
+Pontificia Universidad Católica del Perú
+]
+
+**31 de mayo de 2021**
+
+]
+
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Plan de la clase
+
+&nbsp;
+
+.box-inv-4.large[1 El derecho probatorio]
+
+&nbsp;
+
+.box-inv-4.large[2 La prueba en sentido general]
+
+
+---
+
+layout: false
+name: derecho-probatorio
+class: center middle section-title section-title-4 animated fadeIn
+
+# El derecho probatorio
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# Distinguir DP y PSG
+
+--
+
+.pull-left[
+
+.box-4[El derecho probatorio]
+
+.box-inv-4.small[A) Conformación del conjunto de elementos de juicio]
+
+.center.float-left[.box-inv-4.tiny[Ofrecimiento] .box-inv-4.tiny[Admisión/Exclusión] .box-inv-4.tiny[(Forma de) actuación]]
+
+.box-inv-4.small[B) Valoración de los elementos de juicio*]
+
+.box-inv-4.small[C) Decisión sobre los elementos probados]
+
+.center.float-left[.box-inv-4.tiny[Carga de la prueba] .box-inv-4.tiny[Presunciones] .box-inv-4.tiny[Criterios de decisión]]
+
+]
+
+--
+
+.pull-right[
+
+.box-4[La prueba en sentido general]
+
+.box-inv-4.small[Objetivo: la prueba de los hechos]
+
+.box-inv-4.small[Finalidad: la averiguación de la verdad]
+
+.center.float-left[.box-inv-4.small[Ciencia, técnica]  .box-inv-4.tiny[Teoría de la prueba]]
+
+.center.float-left[.box-inv-4.small[Argumentación] .box-inv-4.tiny[Raz.probatorio] .box-inv-4.tiny[Valoración]]
+
+.box-inv-4.small[Reglas jurídicas]
+
+.center.float-left[.box-inv-4.tiny[Estándares de prueba] .box-inv-4.tiny[Carga de la prueba]  .box-inv-4.tiny[Presunciones]]
+
+]
+
+---
+
+layout: false
+name: conformacion-elementos-juicio
+class: center middle section-title section-title-4 animated fadeIn
+
+# El DP en la NLPT
+
+# Conformación del conjunto de elementos de juicio
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# Requisitos del ofrecimiento probatorio
+
+.box-inv-4.small[
+**Artículo 16.- Requisitos de la demanda**
+
+La demanda se presenta por escrito y debe contener los requisitos y anexos establecidos en la norma procesal civil, con las siguientes precisiones:
+
+b) .red[no debe incluirse ningún pliego] dirigido a la contraparte, los testigos o los peritos; sin embargo, .red[debe indicarse la finalidad] de cada medio de prueba.
+]
+
+.box-inv-4.small[
+**Artículo 19.- Requisitos de la contestación**
+
+La contestación de la demanda se presenta por escrito y debe contener los requisitos y anexos establecidos en la norma procesal civil, .red[sin incluir ningún pliego] dirigido a la contraparte, los testigos o los peritos; sin embargo, .red[debe indicarse la finalidad] de cada medio de prueba.
+
+]
+
+---
+class: animated, fadeIn
+
+# Oportunidad del ofrec. probatorio
+
+.box-inv-4.small[
+
+**Artículo 21.- Oportunidad**
+
+Los medios probatorios deben ser ofrecidos por las partes únicamente en la demanda y en la contestación. Extraordinariamente, pueden ser ofrecidos hasta el momento previo a la actuación probatoria, siempre y cuando estén referidos a hechos nuevos o hubiesen sido conocidos u obtenidos con posterioridad.
+
+Las partes concurren a la audiencia en la que se actúan las pruebas con todos sus testigos, peritos y documentos que, en dicho momento, corresponda ofrecer, exhibir o se pretenda hacer valer con relación a las cuestiones probatorias. Esta actividad de las partes se desarrolla bajo su responsabilidad y costo, sin necesidad de citación del juzgado y sin perjuicio de que el juez los admita o rechace en el momento. ... 
+]
+
+---
+class: animated, fadeIn
+
+.box-inv-4.small[
+
+**Artículo 21.- Oportunidad**
+
+... La inasistencia de los testigos o peritos, así como la falta de presentación de documentos, no impide al juez pronunciar sentencia si, sobre la base de la prueba actuada, los hechos necesitados de prueba quedan acreditados.
+
+En ningún caso, fuera de las oportunidades señaladas, la presentación extemporánea de medios probatorios acarrea la nulidad de la sentencia apelada. Estos medios probatorios no pueden servir de fundamento de la sentencia.
+
+]
+
+---
+class: animated, fadeIn
+
+# Prueba de oficio
+
+.box-inv-4.small[
+
+**Artículo 22.- Prueba de oficio**
+
+Excepcionalmente, el juez puede ordenar la práctica de alguna prueba adicional, en cuyo caso dispone lo conveniente para su realización, procediendo a suspender la audiencia en la que se actúan las pruebas por un lapso adecuado no mayor a treinta (30) días hábiles, y a citar, en el mismo acto, fecha y hora para su continuación. Esta decisión es inimpugnable.
+
+Esta facultad no puede ser invocada encontrándose el proceso en casación. La omisión de esta facultad no acarrea la nulidad de la sentencia.
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de admisión y actuación
+
+.box-inv-4.small[
+
+**Artículo 46.- Etapa de actuación probatoria** La etapa de actuación probatoria se lleva a cabo del siguiente modo:
+
+1. El juez enuncia los hechos que no necesitan de actuación probatoria por tratarse de hechos admitidos, presumidos por ley, recogidos en resolución judicial con calidad de cosa juzgada o notorios; así como los medios probatorios dejados de lado por estar dirigidos a la acreditación de hechos impertinentes o irrelevantes para la causa.
+
+2. El juez enuncia las pruebas admitidas respecto de los hechos necesitados de actuación probatoria.
+
+]
+
+---
+class: animated, fadeIn
+
+.box-inv-4.small[
+
+<ol start=3>
+<li> Inmediatamente después, las partes pueden proponer cuestiones probatorias solo respecto de las pruebas admitidas. El juez dispone la admisión de las cuestiones probatorias únicamente si las pruebas que las sustentan pueden ser actuadas en esta etapa.
+
+<li> El juez toma juramento conjunto a todos los que vayan a participar en esta etapa.
+
+</ol>
+
+]
+
+---
+class: animated, fadeIn
+
+.box-inv-4.small[
+
+<ol start=5>
+<li> Se actúan todos los medios probatorios admitidos, incluidos los vinculados a las cuestiones probatorias, empezando por los ofrecidos por el demandante, en el orden siguiente: declaración de parte, testigos, pericia, reconocimiento y exhibición de documentos. Si agotada la actuación de estos medios probatorios fuese imprescindible la inspección judicial, el juez suspende la audiencia y señala día, hora y lugar para su realización citando, en el momento, a las partes, testigos o peritos que corresponda. La inspección judicial puede ser grabada en audio y vídeo o recogida en acta con anotación de las observaciones constatadas; al concluirse, señala día y hora, dentro de los cinco (5) días hábiles siguientes para los alegatos y sentencia.
+
+<li> La actuación probatoria debe concluir en el día programado; sin embargo, si la actuación no se hubiese agotado, la audiencia continúa dentro de los cinco (5) días hábiles siguientes.
+
+</ol>
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de actuación
+
+.box-inv-4.small[
+
+**Artículo 24.- Forma de los interrogatorios**
+
+El interrogatorio a las partes, testigos, peritos y otros es realizado por el juez de manera libre, concreta y clara, sin seguir ningún ritualismo o fórmula preconstituida. Para su actuación no se requiere de la presentación de pliegos de preguntas. No se permite leer las respuestas, pero sí consultar documentos de apoyo. Los abogados de las partes también pueden preguntar o solicitar aclaraciones, bajo las mismas reglas de apertura y libertad. El juez guía la actuación probatoria con vista a los principios de oralidad, inmediación, concentración, celeridad y economía procesal. Impide que esta se desnaturalice sancionando las conductas temerarias, dilatorias, obstructivas o contrarias al deber de veracidad.
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de actuación
+
+.box-inv-4.small[
+
+**Artículo 25.- Declaración de parte**
+
+La parte debe declarar personalmente. Las personas jurídicas prestan su declaración a través de cualquiera de sus representantes, quienes tienen el deber de acudir informados sobre los hechos que motivan el proceso.
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de actuación
+
+.box-inv-4.small[
+
+**Artículo 26.- Declaración de testigos**
+
+Los testigos no presencian el desarrollo de la audiencia y solo ingresan a ella en el momento que les corresponda.
+
+El secretario del juzgado expide al testigo una constancia de asistencia a fin de acreditar el cumplimiento de su deber ciudadano. Tratándose de un trabajador, dicha constancia sirve para sustentar ante su empleador la inasistencia y el pago de la remuneración por el tiempo de ausencia.
+
+**Artículo 15.- Multas**
+
+El juez puede imponer multa a los testigos o peritos, no menor de media (1/2) ni mayor de cinco (5) Unidades de Referencia Procesal (URP) cuando éstos, habiendo sido notificados excepcionalmente por el juzgado, inasisten sin justificación a la audiencia ordenada de oficio por el juez.
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de actuación
+
+.box-inv-4.small[
+
+**Artículo 27.- Exhibición de planillas**
+
+La exhibición de las planillas manuales se tiene por cumplida con la presentación de las copias legalizadas correspondientes a los períodos necesitados de prueba.
+
+La exhibición de las planillas electrónicas es ordenada por el juez al funcionario del Ministerio de Trabajo y Promoción del Empleo responsable de brindar tal información. Es improcedente la tacha de la información de las planillas electrónicas remitida por dicho funcionario, sin perjuicio de la responsabilidad penal o funcional que las partes puedan hacer valer en la vía correspondiente.
+
+Las partes pueden presentar copias certificadas expedidas por el Ministerio de Trabajo y Promoción del Empleo de la información contenida en las planillas electrónicas, en lugar de la exhibición electrónica.
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de actuación
+
+.box-inv-4.small[
+
+**Artículo 28.- Pericia** Los peritos no presencian el desarrollo de la audiencia y solo ingresan a ella en el momento que corresponda efectuar su exposición.
+
+Los informes contables practicados por los peritos adscritos a los juzgados de trabajo y juzgados de paz letrados tienen la finalidad de facilitar al órgano jurisdiccional la información necesaria para calcular, en la sentencia, los montos de los derechos que ampara, por lo que esta pericia no se ofrece ni se actúa como medio probatorio.
+
+**Artículo 15.- Multas** El juez puede imponer multa a los testigos o peritos, no menor de media (1/2) ni mayor de cinco (5) Unidades de Referencia Procesal (URP) cuando éstos, habiendo sido notificados excepcionalmente por el juzgado, inasisten sin justificación a la audiencia ordenada de oficio por el juez.
+
+]
+
+---
+
+layout: false
+name: valoracion
+class: center middle section-title section-title-4 animated fadeIn
+
+# El DP en la NLPT
+
+# Valoración de los elementos de juicio*
+
+---
+
+layout: false
+name: decision-hechos-probados
+class: center middle section-title section-title-4 animated fadeIn
+
+# El DP en la NLPT
+
+# Decisión sobre los hechos probados
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# Carga de la prueba
+
+.box-inv-4.small[
+
+**Artículo 23.- Carga de la prueba**
+
+23.1 La carga de la prueba corresponde a quien afirma hechos que configuran su pretensión, o a quien los contradice alegando nuevos hechos, sujetos a las siguientes reglas especiales de distribución de la carga probatoria, sin perjuicio de que por ley se dispongan otras adicionales.
+
+23.2 Acreditada la prestación personal de servicios, se presume la existencia de vínculo laboral a plazo indeterminado, salvo prueba en contrario.
+]
+
+---
+class: animated, fadeIn
+
+# Carga de la prueba
+
+.box-inv-4.small[
+
+23.3 Cuando corresponda, si el demandante invoca la calidad de trabajador o ex trabajador, tiene la carga de la prueba de:
+
+a) La existencia de la fuente normativa de los derechos alegados de origen distinto al constitucional o legal.
+
+b) El motivo de nulidad invocado y el acto de hostilidad padecido.
+
+c) La existencia del daño alegado.
+
+]
+
+---
+class: animated, fadeIn
+
+# Carga de la prueba 
+
+.box-inv-4.small[
+
+23.4 De modo paralelo, cuando corresponda, incumbe al demandado que sea señalado como empleador la carga de la prueba de:
+
+a) El pago, el cumplimiento de las normas legales, el cumplimiento de sus obligaciones contractuales, su extinción o inexigibilidad.
+
+b) La existencia de un motivo razonable distinto al hecho lesivo alegado.
+
+c) El estado del vínculo laboral y la causa del despido.
+
+]
+
+---
+class: animated, fadeIn
+
+# Carga de la prueba
+
+.box-inv-4.small[
+
+23.5 En aquellos casos en que de la demanda y de la prueba actuada aparezcan indicios que permitan presumir la existencia del hecho lesivo alegado, el juez debe darlo por cierto, salvo que el demandado haya aportado elementos suficientes para demostrar que existe justificación objetiva y razonable de las medidas adoptadas y de su proporcionalidad.
+
+Los indicios pueden ser, entre otros, las circunstancias en las que sucedieron los hechos materia de la controversia y los antecedentes de la conducta de ambas partes.
+
+]
+
+---
+class: animated, fadeIn
+
+# Presunciones por inconducta
+
+.box-inv-4.small[
+
+**Artículo 29.- Presunciones legales derivadas de la conducta de las partes**
+
+El juez puede extraer conclusiones en contra de los intereses de las partes atendiendo a su conducta asumida en el proceso. Esto es particularmente relevante cuando la actividad probatoria es obstaculizada por una de las partes.
+
+Entre otras circunstancias, se entiende que se obstaculiza la actuación probatoria cuando no se cumple con las exhibiciones ordenadas, se niega la existencia de documentación propia de su actividad jurídica o económica, se impide o niega el acceso al juez, los peritos o los comisionados judiciales al material probatorio o a los lugares donde se encuentre, se niega a declarar, o responde evasivamente.
+
+]
+
+---
+class: animated, fadeIn
+
+# Consecuencia silencio demandado
+
+.box-inv-4.small[
+
+**Artículo 19.- Requisitos de la contestación**
+
+La contestación contiene todas las defensas procesales y de fondo que el demandado estime convenientes. .red[Si el demandado no niega expresamente los hechos expuestos en la demanda, estos son considerados admitidos.]
+
+]
+
+---
+class: animated, fadeIn
+
+# Reglas de valoración
+
+.box-inv-4[
+
+**Artículo 31.- Contenido de la sentencia**
+
+El juez recoge los fundamentos de hecho y de derecho esenciales .red[para motivar su decisión]. La existencia de hechos admitidos no enerva la necesidad de fundamentar la sentencia en derecho.
+
+]
+
+---
+
+layout: false
+name: prueba-en-sentido-general
+class: center middle section-title section-title-4 animated fadeIn
+
+# La prueba en sentido general
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# La prueba en sentido general
+
+--
+
+.pull-right[
+
+.box-4[La prueba en sentido general]
+
+.box-inv-4.small[Objetivo: la prueba de los hechos]
+
+.box-inv-4.small[Finalidad: la averiguación de la verdad]
+
+.center.float-left[.box-inv-4.small[Ciencia, técnica]  .box-inv-4.tiny[Teoría de la prueba]]
+
+.center.float-left[.box-inv-4.small[Argumentación] .box-inv-4.tiny[Raz.probatorio] .box-inv-4.tiny[Valoración]]
+
+.box-inv-4.small[Reglas jurídicas]
+
+.center.float-left[.box-inv-4.tiny[Estándares de prueba] .box-inv-4.tiny[Carga de la prueba]  .box-inv-4.tiny[Presunciones]]
+
+]
+
+---
+
+layout: false
+name: principio-facilitacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# El principio de facilitación probatoria
+
+---
+
+layout: true
+class: title title-4
+
+---
+class: animated, fadeIn
+
+# El principio de facilitación probatoria ...
+
+--
+
+.center.float-left[.box-inv-4[Prueba] .box-inv-4[Proceso] .box-inv-4[Derecho (del trabajo)]]
+
+--
+
+&nbsp;
+
+.center.float-left[.box-inv-4[Rol del juez] .box-inv-4[Función del proceso] .box-inv-4[Finalidad de la prueba]]
+
+--
+
+&nbsp;
+
+.center.float-left[.box-4.small[Conflictos (desigualdad)] .box-4.small[Medios de solución] .box-4.small[Resultado: cómo *es* la decisión]]
+
+
+---
+
+# El Código Civil francés de 1804
+
+--
+
+&nbsp;
+
+.box-4.normal["1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."]
+
+.box-inv-4.normal["Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".]
+
+---
+
+# ¿Por qué un proceso laboral?
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+
+# Tres datos 
+
+.box-4.normal[Tres datos como respaldo epistémico a la desigualdad de las relaciones jurídicas laborales en el Perú]
+
+.box-inv-4.normal[Informalidad laboral: en 2015, 55.5%; en microempresas, 88.7%]
+
+.box-inv-4.normal[Contratos a plazo fijo: 78% fijos vs. 22% indeterminado]
+
+.box-inv-4.normal[Sindicación y cobertura de la negociación colectiva: 6% y 5.1%, respectivamente.]
+
+
+---
+
+# Couture (1979)
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Un nuevo Derecho procesal, extraño a todos los principios tradicionales, sin exceptuar uno solo de ellos, ha debido surgir para establecer, mediante una nueva desigualdad, la igualdad perdida por la distinta condición que tienen en el orden económico de la vida, los que ponen su trabajo como sustancia del contrato, y los que se sirven de él para la satisfacción de sus intereses.]
+
+---
+
+# Proceso laboral
+
+.box-inv-4.medium[Desigualdad como fundamento del proceso laboral (dos perspectivas)]
+
+.pull-left[
+.box-4.normal[La desigualdad material y la igualdad por compensación]
+]
+
+.pull-right[
+.box-4.normal[La igualdad en el principio dispositivo, pero donde se reconoce que las partes no son soberanas ni iguales.]
+]
+
+---
+
+# Proceso laboral. Dos modelos
+
+--
+
+&nbsp;
+
+.pull-left[
+.box-inv-4.medium[DE la igualdad (formal) de las partes y el juez espectador]
+]
+
+.pull-right[
+.box-4.medium[A la igualdad efectiva de las partes (a través de la ley) y el juez director del proceso]
+]
+
+---
+
+# Proceso y prueba. Dos modelos
+
+--
+
+.pull-left[
+.box-inv-4[DEL proceso como mero mecanismo de resolución de conflictos, dependiente de la habilidad del abogado alejado de la verdad (verdad como persuasión)]
+]
+
+.pull-right[
+.box-4[AL proceso como solución de conflictos aplicando Derecho a los hechos ocurridos en la realidad (verdad como correspondencia)]
+]
+
+---
+
+# La oralidad
+
+.box-inv-4.normal[La oralidad como negación de la justicia de la igualdad formal:]
+
+.pull-left[
+.box-4.normal[Oralidad]
+.box-4.normal[Inmediación]
+.box-4.normal[Concentración]
+.box-4.normal[Publicidad]
+.box-4.normal[Economía]
+.box-4.normal[Celeridad]
+.box-4.normal[Escritura]
+]
+
+.pull-right[
+.box-inv-4.normal[No inmediación]
+.box-inv-4.normal[No concentración]
+.box-inv-4.normal[No publicidad]
+.box-inv-4.normal[No economía]
+.box-inv-4.normal[No celeridad]
+]
+
+---
+
+# La oralidad
+
+&nbsp;
+
+--
+
+.box-inv-4.medium[Es el símbolo contra la justicia del juez convidado de piedra.]
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[La oralidad no es "técnicas que litigación oral".]
+
+???
+
+¿Por qué (debe haber) un proceso laboral?
+
+Poder. Estado social. 
+  + Intervención en la economía para asegurar ciertos derechos básicos
+
+Justicia
+  + Justicia distributiva
+  
+  + Justicia correctiva (conmutativa)
+
+Igualdad (en la distribución)
+  + De características
+  + De trato (a los iguales, misma categoría)
+    + a c/u lo mismo
+    + a c/u lo de la ley
+    + a c/u según su rango
+    + a c/u según su mérito
+    + a c/u según su trabajo
+    + a c/u según su necesidad
+
+Igualdad (¿cómo distribuir?)
+  + En el proceso de distribución igualitario
+  + En el resultado igualitario
+  
+Tres nociones de igualdad en las constituciones
+
+1. Igualdad política
+  + Reparto del poder político en una sociedad
+  + Participación en la producción de las normas jurídicas
+
+2. Igualdad ante la ley
+  + Normas generales y no arbitrarias: casos iguales, se resuelven iguales
+  + Prohibición de discriminar: (no siempre hay que tratar igual a todos en ciertas circunstancias, pero nunca se puede utilizar ciertas características para diferenciar el trato)
+
+3. Igualdad en la ley (a través de la ley)
+  + La aplicación del Derecho debe producir resultados igualitarios en cuanto a las condiciones de vida de los ciudadanos
+  + Podría parecer ir contra la igualdad ante la ley en abstracto (acción afirmativa)
+
+Couture
+
+**Couture** planteó que la razón de ser del Derecho procesal del trabajo era asegurar ciertos resultados mínimos de justicia dentro de la desigual relación del trabajo, y que para lograrlo era necesario establecer la igualdad mediante una desigualdad: la igualdad por compensación.
+
+Pregunta:
+¿Qué noción de igualdad daría respaldo a la postura de Couture?
+
+Impacto de la desigualdad (económica y social)
+
++ En la configuración de las relaciones laborales
+
++ En el valor epistémico de la prueba
+
++ En valores de política pública (p. ej. la justicia distributiva)
+
+La desigualdad como fundamento del proceso laboral (dos perspectivas)
+
+1. La desigualdad material y la igualdad por compensación
+
+2. La igualdad en el principio dispositivo
+
+PRINCIPIO DISPOSITIVO
+
+2. La igualdad en el principio dispositivo
+
+1. El principio dispositivo (según lo alegado y probado) prohíbe apreciar, de oficio, hechos relevantes que constan en el proceso pero que no han sido propuestos expresamente por las partes.
+
+2. De vincular al juez a lo alegado y probado no se sigue, necesariamente, que la actuación del juez esté completamente sometida a las partes.
+
+Principio dispositivo
+
++ Afirmar la sujeción del juez a la soberanía de las partes camufla una idea de desigualdad: si las partes son soberanas, entonces, son igualmente soberanas.
+
++ ¿Son las partes iguales?
+
++ Si todo se deja al principio dispositivo (en su versión más restrictiva), entonces se niega el derecho de defensa de una de las partes.
+
++ Se trata de afirmar el p. dispositivo pero sin llevar a convertir al proceso en "una cosa de las partes"
+
++ Presencia de algunas notas del p. inquisitivo en clave de optimización de la decisión. 
+
++ Pero también en clave de optimización epistémica (evitar que se cree una realidad paralela y el sistema procesal no tendría nada que decir)
+
+---
+
+# La igualdad por compensación
+
+.box-4.normal[La igualdad por compensación: el procedimiento lógico de corregir las desigualdades es el crear otras desigualdades]
+
+.box-inv-4.small[El principio de imparcialidad: igualdad de armas]
+
+.box-inv-4.small[Quién produce y conserva un medio de prueba vs. con dificultad o sin acceso al medio de prueba]
+
+.box-inv-4.small[Quién dispone cómo ejecutar un servicio y cómo se deja constancia de ello vs. quién está sometido a las órdenes]
+
+.box-inv-4.small[La igualdad de armas es un objetivo por cumplir]
+
+.box-inv-4.small[Importancia de los poderes del juez]
+
+---
+
+# La igualdad por compensación
+
+.box-inv-4.medium[La igualdad por compensación se posiciona como el fundamento de las actuaciones procesales en los conflictos laborales.]
+
+***
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+## pgparede@pucp.pe
+
+
+```{r echo=FALSE, include=FALSE, eval=FALSE}
+pagedown::chrome_print("paulparedes-seminario-girona.html", 
+                       output = "paulparedes-seminario-girona.pdf")
+```
