@@ -1,0 +1,736 @@
+---
+title: "Proceso laboral"
+author: "Paul Paredes"
+date: "20 de octubre de 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Los procesos laborales
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+CICAJ | Departamento Académico de Derecho
+
+.light.small[Pontificia Universidad Católica del Perú<br>
+20 de octubre, 2021]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Presentación]
+
+--
+
+.box-4.small[La (necesidad de) reforma de los procesos laborales en América Latina]
+
+--
+
+.box-4.small[Los ejes de la reforma procesal en Perú (2008)]
+
+--
+
+.box-4.small[Actividades realizadas, necesarias y beneficios esperados]
+
+--
+
+.box-4.small[La tendencia en América Latina]
+
+--
+
+.box-4.small[Principios y fundamentos del proceso laboral]
+
+---
+
+layout: false
+name: reforma-procesal-laboral
+class: center middle section-title section-title-4 animated fadeIn
+
+# La (necesidad de) reforma del proceso laboral
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Necesidad de la reforma?
+
+--
+
+.box-inv-4.medium[Proceso breve y sencillo]
+
+.box-inv-4.medium[Acceso a la justicia]
+
+.box-inv-4.medium[Medidas de protección]
+
+---
+
+# Los ejes (oficiales) de la reforma
+
+--
+
+.box-inv-4.medium[R.M. 044-2008-TR (febrero de 2008)]
+
+.center[
+<img src="https://raw.githubusercontent.com/PaulParedes/materiales/master/rm044-2008-tr.png">
+]
+
+???
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/rm044-2008-tr.png)
+background-size: auto
+background-position: center
+
+---
+
+# Los ejes (oficiales) de la reforma
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[La oralidad]
+
+&nbsp;
+
+.box-inv-4.medium[Uso intensivo de la tecnología]
+
+---
+
+# Actividades realizadas
+
+--
+
+.pull-left[
+
+.box-inv-4.medium[Plantear como pilares la oralidad y el uso intensivo de la tecnología (¿y el acceso a la justicia?)]
+
+.box-inv-4.medium[Comisión de redacción]
+]
+
+.pull-right[
+
+.box-inv-4.medium[Conociendo otros OOJJ (viajes, códigos)]
+
+.box-inv-4.medium[Comisión de revisión]
+
+.box-inv-4.medium[Foros de discusión]
+]
+
+---
+
+# Actividades (necesarias)
+
+--
+
+.box-inv-4.normal[Formación y capacitación]
+
+.box-inv-4.normal[Implementación material de los despachos. Infraestructura]
+
+.box-inv-4.normal[La NLPT]
+
+.box-inv-4.normal[Seguimiento y retroalimentación del nuevo proceso]
+
+---
+
+# Beneficios esperables (¿?) de la reforma
+
+--
+
+.pull-left[
+.box-inv-4.small[Celeridad: 6 meses]
+
+.box-inv-4.small[Ensanchamiento de la base poblacional con acceso a la justicia laboral]
+
+.box-inv-4.small[Simplicidad del procedimiento]
+]
+
+.pull-right[
+.box-inv-4.small[Predictibilidad de la justicia laboral]
+
+.box-inv-4.small[Modernidad de los procedimientos]
+
+.box-inv-4.small[Revaloración del rol de la Corte Suprema]
+]
+---
+
+# La reforma en América Latina
+
+--
+
+.pull-left[
+
+.box-4.medium[Perspectiva estática]
+
+.box-inv-4.medium[Legislativa]
+
+.box-inv-4.medium[¿Cómo es el proceso laboral?]
+
+]
+
+.pull-right[
+
+.box-4.medium[Perspectiva dinámica]
+
+.box-inv-4.medium[El proceso en acción]
+
+.box-inv-4.medium[¿Cómo viene funcionando el proceso laboral?]
+]
+
+---
+
+# La experiencia ecuatoriana 
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[Oralidad, inmediación, concentración]
+
+.box-inv-4.medium[Grabación magnetofónica]
+
+.box-inv-4.medium[Trascripción en acta]
+
+---
+
+# La experiencia venezolana
+
+--
+
+.box-inv-4.small[Infraestructura]
+
+.box-inv-4.small[Capacitación]
+
+.box-inv-4.small[Efectividad de la conciliación (85%)]
+
+.box-inv-4.small[Oralidad, inmediación, concentración]
+
+.box-inv-4.small[Grabación audiovisual]
+
+.box-inv-4.small[Sentencia al final de la audiencia de juicio]
+
+.box-inv-4.small[Lentitud en la etapa de casación]
+
+---
+
+# La reforma en América Latina
+
+--
+
+.pull-left[
+.box-inv-1.normal[Venezuela, agosto 2003]
+
+.box-inv-2.normal[Ecuador, julio 2004]
+
+.box-inv-3.normal[Colombia, enero 2008]
+
+.box-inv-4.normal[Chile, marzo 2008]
+
+.box-inv-5.normal[Bolivia, (1979), 2009]
+]
+
+.pull-right[
+
+.box-inv-5.normal[Uruguay, febrero 2010]
+
+.box-inv-4.normal[Perú, enero-julio 2010]
+
+.box-inv-3.normal[Costa Rica, 2012]
+
+.box-inv-2.normal[Nicaragua, 2012]
+
+.box-inv-1.normal[México, 2019 (2022)]
+]
+
+---
+
+# La tendencia actual a la oralidad
+
+--
+
+.box-inv-4.normal[Mayor dosis de oralidad (que no excluye la escritura, sino que acerca, concentra y simplifica)]
+
+.box-inv-4.normal[Uso de nuevas tecnologías]
+
+.box-inv-4.normal[Rol protagónico del juez]
+
+.box-inv-4.normal[Fortalecimiento de los mecanismos alternativos de solución de conflictos]
+
+.box-inv-4.normal[Protección especial frente a la vulneración de derechos fundamentales]
+
+---
+
+# La tendencia actual a la oralidad
+
+--
+
+.box-4.medium[Principio protector]
+
+.box-inv-4.small[Igualdad por compensación]
+
+.box-inv-4.small[Fondo vs. Forma]
+
+.box-inv-4.small[A favor del proceso]
+
+.box-inv-4.small[Simplicidad]
+
+.box-inv-4.small[Acceso a la justicia]
+
+.box-inv-4.small[Debido proceso/tutela judicial]
+
+---
+
+# La tendencia actual a la oralidad
+
+--
+
+.box-4.medium[Principio protector]
+
+.box-inv-4.small[Ampliación de las medidas cautelares y celeridad en la ejecución de la sentencia]
+
+.box-inv-4.small[Igualdad en la aplicación de la ley]
+
+.box-inv-4.small[Predictibilidad de las resoluciones]
+
+.box-inv-4.small[Eficacia de la justicia]
+
+.box-inv-4.small[Una justicia célere (oportuna)]
+
+.box-inv-4.small[La teoría del caso*]
+
+---
+
+layout: false
+name: oralidad-tecnologia
+class: center middle section-title section-title-4 animated fadeIn
+
+# Oralidad y tecnología
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# La oralidad
+
+&nbsp;
+
+
+.box-inv-4.large[«hay que **diseñar** un procedimiento laboral que sea oral»]
+
+---
+
+# ... pero
+
+&nbsp;
+
+.box-inv-4.large[¿La Ley 26636 regula, incorpora, describe un proceso *escrito*?]
+
+---
+
+# Mauro Cappelletti
+
+.box-inv-4.medium[«El moderno **‘sistema de la oralidad’** [es aquel] en el cual las partes, los defensores y los testigos **hablan**, más que escriben, **al juez** en la **audiencia** pública, y en el cual, por tanto, la audiencia viene a constituir el momento más importante del proceso.»]
+
+---
+
+# Proceso oral
+
+.box-inv-4.medium[Proceso que reúne, en la audiencia, a las partes, sus abogados, el material probatorio y el juez, para conocer y resolver una causa.]
+
+---
+
+# Artículo I, Título Preliminar, Ley 26636
+
+.box-inv-4.medium[«Las audiencias y actuación de los medios probatorios se realizan ante el juez, siendo indelegables bajo sanción de nulidad».]
+
+---
+layout: false
+name: oralidad-tecnologia
+class: center middle section-title section-title-4 animated fadeIn
+
+# «No basta cambiar la ley para tener procesos orales»
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Uso intensivo de la tecnología
+
+.box-inv-4.normal[Notificaciones electrónicas, a cargo del PJ]
+
+.box-inv-4.normal[Expediente electrónico, a cargo del PJ]
+
+.box-inv-4.normal[Base de datos de jurisprudencia y precedentes sistematizada, a cargo del MTPE, con la colaboración del PJ y TC]
+
+.box-inv-4.normal[Sistema de cálculo de derechos laborales, a cargo del MTPE con la colaboración del PJ]
+
+.box-inv-4.normal[Sistema de remisión electrónico de información de las planillas electrónicas, a cargo del MTPE]
+
+---
+
+layout: false
+name: principios-fundamentos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Principios y fundamentos del proceso laboral
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# El Código Civil francés de 1804
+
+--
+
+&nbsp;
+
+.box-4.normal["1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."]
+
+.box-inv-4.normal["Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".]
+
+---
+
+# ¿Por qué un proceso laboral?
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+
+# Tres datos
+
+.box-4.normal[Tres datos como respaldo epistémico a la desigualdad de las relaciones jurídicas laborales en el Perú]
+
+.box-inv-4.normal[Informalidad laboral: en 2015, 55.5%; en microempresas, 88.7%]
+
+.box-inv-4.normal[Contratos a plazo fijo: 78% fijos vs. 22% indeterminado]
+
+.box-inv-4.normal[Sindicación y cobertura de la negociación colectiva: 6% y 5.1%, respectivamente]
+
+---
+
+# Couture (1979)
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Un nuevo Derecho procesal, extraño a todos los principios tradicionales, sin exceptuar uno solo de ellos, ha debido surgir para establecer, mediante una nueva desigualdad, la igualdad perdida por la distinta condición que tienen en el orden económico de la vida, los que ponen su trabajo como sustancia del contrato, y los que se sirven de él para la satisfacción de sus intereses.]
+
+---
+
+# Proceso laboral
+
+.box-inv-4.medium[Desigualdad como fundamento del proceso laboral (dos perspectivas)]
+
+.pull-left[
+.box-4.normal[La desigualdad material y la igualdad por compensación]
+]
+
+.pull-right[
+.box-4.normal[La igualdad en el principio dispositivo, pero donde se reconoce que las partes no son soberanas ni iguales]
+]
+
+---
+
+# Proceso laboral. Dos modelos
+
+--
+
+&nbsp;
+
+.pull-left[
+.box-inv-4.medium[**DE** la igualdad (formal) de las partes y el juez director]
+]
+
+.pull-right[
+.box-4.medium[**A** la igualdad efectiva de las partes (a través de la ley) y el juez director del proceso]
+]
+
+---
+
+# Proceso y prueba. Dos modelos
+
+--
+
+.pull-left[
+.box-inv-4.normal[**DEL** proceso como mero mecanismo de resolución de conflictos, dependiente de la habilidad del abogado alejado de la verdad (verdad como persuasión]
+]
+
+.pull-right[
+.box-4.normal[**AL** proceso como solución de conflictos aplicando Derecho a los hechos ocurridos en la realidad (verdad como correspondencia)]
+]
+
+---
+
+# La oralidad
+
+.box-inv-4.normal[La oralidad como respuesta, a la justicia, de la igualdad formal:]
+
+.pull-left[
+.box-4.normal[Oralidad]
+.box-4.normal[Inmediación]
+.box-4.normal[Concentración]
+.box-4.normal[Publicidad]
+.box-4.normal[Economía]
+.box-4.normal[Celeridad]
+.box-4.normal[Escritura]
+]
+
+.pull-right[
+.box-inv-4.normal[No inmediación]
+.box-inv-4.normal[No concentración]
+.box-inv-4.normal[No publicidad]
+.box-inv-4.normal[No economía]
+.box-inv-4.normal[No celeridad]
+]
+
+---
+
+# La oralidad
+
+&nbsp;
+
+--
+
+.box-inv-4.medium[Es el símbolo contra la justicia del juez convidado de piedra.]
+
+--
+
+&nbsp;
+
+.box-inv-4.medium[La oralidad no es "técnicas que litigación oral".]
+
+???
+
+¿Por qué (debe haber) un proceso laboral?
+
+Poder. Estado social. 
+  + Intervención en la economía para asegurar ciertos derechos básicos
+
+Justicia
+  + Justicia distributiva
+  
+  + Justicia correctiva (conmutativa)
+
+Igualdad (en la distribución)
+  + De características
+  + De trato (a los iguales, misma categoría)
+    + a c/u lo mismo
+    + a c/u lo de la ley
+    + a c/u según su rango
+    + a c/u según su mérito
+    + a c/u según su trabajo
+    + a c/u según su necesidad
+
+Igualdad (¿cómo distribuir?)
+  + En el proceso de distribución igualitario
+  + En el resultado igualitario
+  
+Tres nociones de igualdad en las constituciones
+
+1. Igualdad política
+  + Reparto del poder político en una sociedad
+  + Participación en la producción de las normas jurídicas
+
+2. Igualdad ante la ley
+  + Normas generales y no arbitrarias: casos iguales, se resuelven iguales
+  + Prohibición de discriminar: (no siempre hay que tratar igual a todos en ciertas circunstancias, pero nunca se puede utilizar ciertas características para diferenciar el trato)
+
+3. Igualdad en la ley (a través de la ley)
+  + La aplicación del Derecho debe producir resultados igualitarios en cuanto a las condiciones de vida de los ciudadanos
+  + Podría parecer ir contra la igualdad ante la ley en abstracto (acción afirmativa)
+
+Couture
+
+**Couture** planteó que la razón de ser del Derecho procesal del trabajo era asegurar ciertos resultados mínimos de justicia dentro de la desigual relación del trabajo, y que para lograrlo era necesario establecer la igualdad mediante una desigualdad: la igualdad por compensación.
+
+Pregunta:
+¿Qué noción de igualdad daría respaldo a la postura de Couture?
+
+Impacto de la desigualdad (económica y social)
+
++ En la configuración de las relaciones laborales
+
++ En el valor epistémico de la prueba
+
++ En valores de política pública (p. ej. la justicia distributiva)
+
+La desigualdad como fundamento del proceso laboral (dos perspectivas)
+
+1. La desigualdad material y la igualdad por compensación
+
+2. La igualdad en el principio dispositivo
+
+PRINCIPIO DISPOSITIVO
+
+2. La igualdad en el principio dispositivo
+
+1. El principio dispositivo (según lo alegado y probado) prohíbe apreciar, de oficio, hechos relevantes que constan en el proceso pero que no han sido propuestos expresamente por las partes.
+
+2. De vincular al juez a lo alegado y probado no se sigue, necesariamente, que la actuación del juez esté completamente sometida a las partes.
+
+Principio dispositivo
+
++ Afirmar la sujeción del juez a la soberanía de las partes camufla una idea de desigualdad: si las partes son soberanas, entonces, son igualmente soberanas.
+
++ ¿Son las partes iguales?
+
++ Si todo se deja al principio dispositivo (en su versión más restrictiva), entonces se niega el derecho de defensa de una de las partes.
+
++ Se trata de afirmar el p. dispositivo pero sin llevar a convertir al proceso en "una cosa de las partes"
+
++ Presencia de algunas notas del p. inquisitivo en clave de optimización de la decisión. 
+
++ Pero también en clave de optimización epistémica (evitar que se cree una realidad paralela y el sistema procesal no tendría nada que decir)
+
+---
+
+# La igualdad por compensación
+
+--
+
+.box-4.normal[La igualdad por compensación: el procedimiento lógico de corregir las desigualdades es el crear otras desigualdades]
+
+--
+
+.box-inv-4.small[El principio de imparcialidad: igualdad de armas]
+
+.box-inv-4.small[Quien produce y conserva un medio de prueba **vs.** quien no tienen acceso al medio de prueba o con dificultad]
+
+.box-inv-4.small[Quien dispone cómo ejecutar un servicio y cómo se deja constancia de ello **vs.** quien está sometido a esas órdenes]
+
+.box-inv-4.small[La igualdad de armas es un objetivo por cumplir]
+
+.box-inv-4.small[Importancia de los poderes del juez]
+
+---
+
+# La igualdad por compensación
+
+.box-inv-4.medium[La igualdad por compensación se posiciona como el fundamento de las actuaciones procesales en los conflictos laborales.]
+
+---
+
+layout: false
+name: mario-pasco
+class: center middle section-title section-title-4 animated fadeIn
+
+# Principios y fundamentos en la NLPT
+
+---
+
+layout: true
+class: title title-4
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo I.- Principios del proceso laboral**
+
+El proceso laboral se inspira, entre otros, en los principios de inmediación, oralidad, concentración, celeridad, economía procesal y veracidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo II.- Ámbito de la justicia laboral**
+
+Corresponde a la justicia laboral resolver los conflictos jurídicos que se originan con ocasión de las prestaciones de servicios de carácter personal, de naturaleza laboral, formativa, cooperativista o administrativa; están excluidas las prestaciones de servicios de carácter civil, salvo que la demanda se sustente en el encubrimiento de relaciones de trabajo. Tales conflictos jurídicos pueden ser individuales, plurales o colectivos, y estar referidos a aspectos sustanciales o conexos, incluso previos o posteriores a la prestación efectiva de los servicios.
+]
+---
+# NLPT 
+
+.box-inv-4.normal[**Artículo III.- Fundamentos del proceso laboral**
+
+En todo proceso laboral los jueces deben evitar que la desigualdad entre las partes afecte el desarrollo o resultado del proceso, para cuyo efecto procuran alcanzar la igualdad real de las partes, privilegian el fondo sobre la forma, interpretan los requisitos y presupuestos procesales en sentido favorable a la continuidad del proceso, observan el debido proceso, la tutela jurisdiccional y el principio de razonabilidad. En particular, acentúan estos deberes frente a la madre gestante, el menor de edad y la persona con discapacidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[
+
+Los jueces laborales tienen un rol protagónico en el desarrollo e impulso del proceso. Impiden y sancionan la inconducta contraria a los deberes de veracidad, probidad, lealtad y buena fe de las partes, sus representantes, sus abogados y terceros.
+
+El proceso laboral es gratuito para el prestador de servicios, en todas las instancias, cuando el monto total de las pretensiones reclamadas no supere las setenta (70) Unidades de Referencia Procesal (URP).
+
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo IV.- Interpretación y aplicación de las normas en la resolución de los conflictos de la justicia laboral**
+
+Los jueces laborales, bajo responsabilidad, imparten justicia con arreglo a la Constitución Política del Perú, los tratados internacionales de derechos humanos y la ley. Interpretan y aplican toda norma jurídica, incluyendo los convenios colectivos, según los principios y preceptos constitucionales, así como los precedentes vinculantes del Tribunal Constitucional y de la Corte Suprema de Justicia de la República.
+]
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+
+.box-4.medium[pgparede@pucp.pe]
+

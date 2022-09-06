@@ -1,0 +1,347 @@
+---
+title: "Audiencia de juzgamiento y proceso laboral"
+author: "Paul Paredes"
+date: "15 de setiembre de 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides31.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+background-image: url(img/prim.png)
+background-size: cover 
+
+---
+background-image: url(img/terc.png)
+background-size: cover 
+
+---
+
+class: center middle main-title section-title-4
+
+# Audiencia de juzgamiento
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+**Curso Taller en Proceso Laboral por Audiencias**
+
+.light.small[CICAJ PUCP | PP99 | Poder Judicial<br>
+15 de setiembre de 2022]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Confrontación de posiciones]
+
+.box-4.small[Actuación probatoria]
+
+.box-4.small[Alegatos]
+
+.box-4.small[Sentencia]
+
+
+---
+
+layout: false
+name: audiencias
+class: center middle section-title section-title-4 animated fadeIn
+
+# Los procesos laborales
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Los tipos de procesos EN la NLPT
+
+.box-4[El proceso ordinario laboral]
+
+.box-inv-4[El proceso abreviado laboral]
+
+.box-5[El proceso impugnativo de laudos arbitrales económicos]
+
+.box-inv-5[El proceso cautelar]
+
+.box-6[El proceso de ejecución]
+
+.box-inv-6[Los procesos no contenciosos]
+
+---
+# Los tipos de procesos FUERA de la NLPT
+
+.box-1[El proceso contencioso administrativo (D.S. 011-2019-JUS)]
+
+.box-inv-1[El proceso de acción popular (CPConst.)]
+
+.box-2[El proceso de anulación de laudo jurídico (D.Leg. 1071)]
+
+.box-inv-2[El proceso de acción de amparo (CPConst.)]
+
+.box-3[El proceso de inconstitucionalidad (CPConst.)]
+
+.box-inv-3[El proceso de cumplimiento (CPConst.)]
+
+---
+# El proceso ordinario laboral
+
+.box-4[1.Audiencia de conciliación]
+
+.box-inv-4.small[El juez tiene una participación activa en la solución de las diferencias.]
+
+.box-inv-4.small[La conciliación puede prolongarse lo necesario por decisión de las partes.]
+
+.box-inv-4.small[El juez aprueba el acuerdo parcial o total, y también sobre los extremos no controvertidos, con calidad de cosa juzgada y ordena el cumplimiento de lo acordado.]
+
+.box-inv-4.small[Los extremos no solucionados pasan a ser materia de juicio.]
+
+.box-inv-4.small[El juez emite sentencia al finalizar la audiencia si la causa es de puro derecho o no hay necesidad de actuación probatoria (**juzgamiento anticipado**).]
+
+---
+# El proceso ordinario laboral
+
+.box-4[2.Audiencia de juzgamiento]
+
+.box-4.small[Incorpora las etapas de:]
+
+.box-inv-4.small[**Confrontación de posiciones:** exposición de los argumentos de demandante y demandado.]
+
+.box-inv-4.small[**Actuación probatoria:** actuación de todos los medios probatorios sólo de los hechos necesitados de prueba.]
+
+.box-inv-4.small[**Alegatos:** argumentación de cierre de los abogados.]
+
+.box-inv-4.small[**Sentencia:** a la conclusión de la audiencia o luego de 60 minutos. Excepcionalmente, dentro de 5 días hábiles siguientes.]
+
+---
+
+layout: false
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pol1.png)
+background-size: contain
+
+
+---
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pol2.png)
+background-size: contain
+
+---
+
+layout: true
+class: title title-4
+
+---
+# El proceso abreviado laboral
+
+.box-4[Audiencia Única]
+
+.box-4.smaller[Se estructura sobre la base de las audiencias de conciliación y de juzgamiento del proceso ordinario laboral.]
+
+.box-4.smaller[Incorpora las etapas de:]
+
+.box-inv-4.small[Conciliación]
+
+.box-inv-4.small[Confrontación de posiciones]
+
+.box-inv-4.small[Actuación probatoria]
+
+.box-inv-4.small[Alegatos]
+
+.box-inv-4.small[Sentencia]
+
+---
+layout: false
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pal.png)
+background-size: contain
+
+---
+
+layout: false
+name: confrontacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# Confrontación de posiciones
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Confrontación de posiciones
+
+--
+
+.box-4[Exposiciones orales: pretensiones y fundamentos]
+
+--
+
+.box-inv-4[¿Posibilidad de modificación de la demanda?]
+
+---
+# Actuación probatoria
+
+.box-4[¿Fijación de puntos controvertidos?]
+
+--
+
+.box-4[Hechos que no necesitan de actuación probatoria]
+
+--
+
+.box-4[Medios de prueba dejados de lado]
+
+--
+
+.box-4[Medios de prueba admitidos]
+
+--
+
+.box-4[Cuestiones probatorias sobre los hechos admitidos]
+
+--
+
+.box-4[Juramento conjunto]
+
+--
+
+.box-4[Actuación de los medios de prueba]
+
+---
+
+layout: false
+name: conducta
+class: center middle section-title section-title-4 animated fadeIn
+
+# Alegatos
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Alegatos
+
+--
+
+.box-4[Luego de finalizada la actuación probatoria]
+
+--
+
+.box-4[¿Tiempo de preparación?]
+
+---
+
+layout: false
+name: sentencia
+class: center middle section-title section-title-4 animated fadeIn
+
+# Sentencia
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Sentencia
+
+--
+
+.box-4[Fallo de la sentencia]
+
+--
+
+.box-4[Notificación en estrado]
+
+--
+
+.box-4[Notificación en casilla electrónica]
+
+---
+
+# Sentencia
+
+
+.box-4.small[Fallo ultra y extra petita]
+
+.box-inv-4.small[Congruencia y derecho de defensa]
+
+.box-inv-4.small[Motivación]
+  
+---
+# Artículo 31
+
+.box-4[Contenido de la sentencia]
+
+.box-inv-4.tiny[
+El juez recoge los fundamentos de hecho y de derecho esenciales para motivar su decisión.
+La existencia de hechos admitidos no enerva la necesidad de fundamentar la sentencia en derecho.
+
+La sentencia se pronuncia sobre todas las articulaciones o medios de defensa propuestos por las partes y sobre la demanda, en caso de que la declare fundada total o parcialmente, indicando los derechos reconocidos, así como las prestaciones que debe cumplir el demandado. Si la prestación ordenada es de dar una suma de dinero, la misma debe estar indicada en monto líquido. El juez puede disponer el pago de sumas mayores a las demandadas si apareciere error en el cálculo de los derechos demandados o error en la invocación de las normas aplicables.
+
+Tratándose de pretensiones con pluralidad de demandantes o demandados, el juez debe pronunciarse expresamente por los derechos y obligaciones concretos que corresponda a cada uno de ellos. 
+
+El pago de los intereses legales y la condena en costos y costas no requieren ser demandados. Su cuantía o modo de liquidación es de expreso pronunciamiento en la sentencia.
+]
+
+---
+layout: false
+
+background-image: url(img/ultim.png)
+background-size: cover 
+
+???
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+¡Muchas gracias!
+
+.box-4.medium[pgparede@pucp.pe]
+

@@ -1,0 +1,650 @@
+---
+title: "Audiencia única y proceso laboral"
+author: "Paul Paredes"
+date: "20 de setiembre de 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides31.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+background-image: url(img/prim.png)
+background-size: cover 
+
+---
+background-image: url(img/terc.png)
+background-size: cover 
+
+---
+
+class: center middle main-title section-title-4
+
+# Audiencia única
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+**Curso Taller en Proceso Laboral por Audiencias**
+
+.light.small[CICAJ PUCP | PP99 | Poder Judicial<br>
+20 de setiembre de 2022]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Traslado y citación a audiencia única]
+
+.box-4.small[Materias]
+
+.box-4.small[Conciliación]
+
+.box-4.small[Confrontación de posiciones]
+
+.box-4.small[Actuación probatoria]
+
+.box-4.small[Alegatos]
+
+.box-4.small[Sentencia]
+
+---
+
+layout: false
+name: audiencias
+class: center middle section-title section-title-4 animated fadeIn
+
+# Los procesos laborales
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Los tipos de procesos EN la NLPT
+
+.box-4[El proceso ordinario laboral]
+
+.box-inv-4[El proceso abreviado laboral]
+
+.box-5[El proceso impugnativo de laudos arbitrales económicos]
+
+.box-inv-5[El proceso cautelar]
+
+.box-6[El proceso de ejecución]
+
+.box-inv-6[Los procesos no contenciosos]
+
+---
+# Los tipos de procesos FUERA de la NLPT
+
+.box-1[El proceso contencioso administrativo (D.S. 011-2019-JUS)]
+
+.box-inv-1[El proceso de acción popular (CPConst.)]
+
+.box-2[El proceso de anulación de laudo jurídico (D.Leg. 1071)]
+
+.box-inv-2[El proceso de acción de amparo (CPConst.)]
+
+.box-3[El proceso de inconstitucionalidad (CPConst.)]
+
+.box-inv-3[El proceso de cumplimiento (CPConst.)]
+
+---
+# El proceso ordinario laboral
+
+.box-4[1.Audiencia de conciliación]
+
+.box-inv-4.small[El juez tiene una participación activa en la solución de las diferencias.]
+
+.box-inv-4.small[La conciliación puede prolongarse lo necesario por decisión de las partes.]
+
+.box-inv-4.small[El juez aprueba el acuerdo parcial o total, y también sobre los extremos no controvertidos, con calidad de cosa juzgada y ordena el cumplimiento de lo acordado.]
+
+.box-inv-4.small[Los extremos no solucionados pasan a ser materia de juicio.]
+
+.box-inv-4.small[El juez emite sentencia al finalizar la audiencia si la causa es de puro derecho o no hay necesidad de actuación probatoria (**juzgamiento anticipado**).]
+
+---
+# El proceso ordinario laboral
+
+.box-4[2.Audiencia de juzgamiento]
+
+.box-4.small[Incorpora las etapas de:]
+
+.box-inv-4.small[**Confrontación de posiciones:** exposición de los argumentos de demandante y demandado.]
+
+.box-inv-4.small[**Actuación probatoria:** actuación de todos los medios probatorios sólo de los hechos necesitados de prueba.]
+
+.box-inv-4.small[**Alegatos:** argumentación de cierre de los abogados.]
+
+.box-inv-4.small[**Sentencia:** a la conclusión de la audiencia o luego de 60 minutos. Excepcionalmente, dentro de 5 días hábiles siguientes.]
+
+---
+
+layout: false
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pol1.png)
+background-size: contain
+
+
+---
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pol2.png)
+background-size: contain
+
+---
+
+layout: true
+class: title title-4
+
+---
+# El proceso abreviado laboral
+
+.box-4[Audiencia Única]
+
+.box-4.smaller[Se estructura sobre la base de las audiencias de conciliación y de juzgamiento del proceso ordinario laboral.]
+
+.box-4.smaller[Incorpora las etapas de:]
+
+.box-inv-4.small[Conciliación]
+
+.box-inv-4.small[Confrontación de posiciones]
+
+.box-inv-4.small[Actuación probatoria]
+
+.box-inv-4.small[Alegatos]
+
+.box-inv-4.small[Sentencia]
+
+---
+layout: false
+
+background-image: url(https://raw.githubusercontent.com/PaulParedes/materiales/master/pal.png)
+background-size: contain
+
+---
+
+layout: false
+name: confrontacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# Materias, cuantía
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+layout: false
+name: pretensiones
+class: center middle section-title section-title-4 animated fadeIn
+
+# Competencia (materia [tipo de relación], cuantía)
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Cuáles pretensiones?
+
+--
+
+.box-4.normal[Respuesta 1: (materia*)]
+
+.box-inv-4.normal[Las pretensiones que están listadas en el artículo 2 de la NLPT, sin ser exclusivas.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-4.normal[Las pretensiones relacionadas a los siguientes aspectos o temas:]
+
+.box-inv-4.small[a) El nacimiento, desarrollo y extinción de la prestación personal de servicios; así como a los correspondientes actos jurídicos.]
+
+.box-inv-4.small[b) La responsabilidad por daño patrimonial o extrapatrimonial, incurrida por cualquiera de las partes involucradas en la prestación personal de servicios, o terceros en cuyo favor se presta o prestó el servicio.]
+
+.box-inv-4.small[c) Los actos de discriminación en el acceso, ejecución y extinción de la relación laboral.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-inv-4.small[d) El cese de los actos de hostilidad del empleador, incluidos los actos de acoso moral y hostigamiento sexual, conforme a la ley de la materia.]
+
+.box-inv-4.small[e) Las enfermedades profesionales y los accidentes de trabajo.]
+
+.box-inv-4.small[f) La impugnación de los reglamentos internos de trabajo.]
+
+.box-inv-4.small[g) Los conflictos vinculados a una organización sindical y entre organizaciones sindicales, incluida su disolución.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-inv-4.small[h) El cumplimiento de obligaciones generadas o contraídas con ocasión de la prestación personal de servicios exigibles a institutos, fondos, cajas u otros.]
+
+.box-inv-4.small[i) El cumplimiento de las prestaciones de salud y pensiones de invalidez, a favor de los asegurados o los beneficiarios, exigibles al empleador, a las entidades prestadoras de salud o a las aseguradoras.]
+
+.box-inv-4.small[j) El Sistema Privado de Pensiones.]
+
+.box-inv-4.small[k) La nulidad de cosa juzgada fraudulenta laboral.]
+
+.box-inv-4.small[l) **(OTROS)**]
+
+---
+class: animated, fadeIn
+
+# Ámbito de la justicia laboral
+
+.box-inv-4.normal[Se aplica a TODO conflicto jurídico derivado de una prestación personal de servicios remunerada:]
+
+--
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-gure{background-color:#9aff99;border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;
+  vertical-align:top}
+.tg .tg-yd3j{border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-gure">De naturaleza</th>
+    <th class="tg-gure">Sobre derechos</th>
+    <th class="tg-gure">Respecto de temas</th>
+    <th class="tg-gure">Ocurridos</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yd3j"><span style="color:#000">Laboral</span><br><br><span style="color:#000">Formativa</span><br><br><span style="color:#000">Cooperativista</span><br><br><span style="color:#000">Administrativa</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Individuales</span><br><br><span style="color:#000">Plurales</span><br><br><span style="color:#000">Colectivos</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Sustanciales</span><br><br><span style="color:#000">Conexos</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Antes</span><br><br><span style="color:#000">Durante</span><br><br><span style="color:#000">Después</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# ¿Cuáles pretensiones?
+
+.box-4.normal[Respuesta 2: (tipo de relación)]
+
+.box-inv-4.normal[Todas las pretensiones relativas a cualquiera de los 4 tipos de relaciones considerados: laboral, formativa, cooperativista y administrativa.
+]
+
+???
+# Lugar geográfico 
+
+## Competencia por territorio
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6c8b{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-a9uw{background-color:#EA7177;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">Regla, a elección del demandante</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">Si la demanda es dirigida contra quien prestó los servicios</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En el caso de  impugnación de laudos arbitrales económicos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-6c8b"><span style="color:#000">El juez del lugar del domicilio principal del demandado, o,</span><br><br><span style="color:#000">El juez del último lugar donde se prestaron los servicios</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Solo es competente el juez del domicilio del prestador de servicios</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Solo es competente la sala laboral del lugar donde se expidió el laudo</span></td>
+  </tr>
+</tbody>
+</table>
+
+
+<br/>
+
+***
+
+###### La competencia por razón de territorio solo puede ser prorrogada cuando resulte a favor del prestador de servicios.
+
+---
+# Órgano jurisdiccional 
+
+## Juzgados especializados de trabajo
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6c8b{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-a9uw{background-color:#9aff99;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso ordinario laboral</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso abreviado laboral</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso contencioso administrativo</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso de ejecución</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-6c8b"><span style="color:#000">Todo conflicto jurídico de naturaleza laboral, formativa o cooperativista, </span><span style="font-weight:bold;color:#000">mayor 50 URP o sin expresión monetaria</span><br><br><span style="color:#000">El listado de materias es meramente ilustrativo</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Reposición, cuando se plantea como pretensión principal única</span><br><br><span style="color:#000">Pretensiones relativas a la vulneración de la libertad sindical</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Todo conflicto jurídico de naturaleza laboral, administrativa o de seguridad social, de derecho público</span><br><br><span style="color:#000">Impugnación de actuaciones de la AAT</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Títulos ejecutivos mayor a 50 URP</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# Órgano jurisdiccional 
+
+## Juzgados de paz letrados laborales
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-e904{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-jtsx{background-color:#9aff99;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">En proceso abreviado laboral</span></th>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">En proceso de ejecución</span></th>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">Procesos no contenciosos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-e904"><span style="color:#000">Las pretensiones:</span><br><br><span style="color:#000">. atribuidas originalmente a los Juzgados de Trabajo,</span><br><br><span style="color:#000">1. que sean obligaciones de dar, </span><span style="text-decoration:underline;color:#000">y</span><br><br><span style="color:#000">2. hasta 50 URP</span></td>
+    <td class="tg-e904"><span style="color:#000">Títulos ejecutivos hasta 50 URP</span><br><br><span style="color:#000">Cobranza de aportes previsionales del sistema privado de pensiones retenidos por el empleador, sin importar la cuantía</span></td>
+    <td class="tg-e904"><span style="color:#000">Todos los asuntos no contenciosos, sin importar la cuantía</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# Órgano jurisdiccional
+
+## Salas laborales superiores
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-67cq{border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-sbdv{background-color:#9aff99;border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;
+  vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso de acción popular</span></th>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso de anulación de laudo arbitral jurídico</span></th>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso impugnativo de laudos arbitrales económicos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-67cq"><span style="color:#000">La acción popular en materia laboral, conforme a las reglas del Código Procesal Constitucional</span></td>
+    <td class="tg-67cq"><span style="color:#000">La anulación de laudo que resuelve un conflicto jurídico de naturaleza laboral, conforme a las reglas de la Ley de Arbitraje</span></td>
+    <td class="tg-67cq"><span style="color:#000">Impugnación de laudos arbitrales derivados de una negociación colectiva</span></td>
+  </tr>
+  <tr>
+    <td class="tg-67cq" colspan="3">* También conocen las contiendas de competencia y los conflictos de autoridad</td>
+  </tr>
+</tbody>
+</table>
+
+---
+
+layout: false
+name: confrontacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# Conciliación
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# La NLPT y la conciliación
+
+.box-4.medium[Características del acuerdo en conciliación:]
+
+.box-inv-4.less-medium[Libre - Adoptado por el titular del derecho]
+
+.box-inv-4.less-medium[Informado - Con participación del abogado del prestador de servicios demandante]
+
+.box-inv-4.less-medium[De buena fe - Fundamento del proceso laboral]
+
+---
+
+# ¿Cuál es la función del proceso?
+
+.box-inv-4.sp-after.smaller[
+
++ El proceso como instancia de .white[construcción de una realidad para persuadir al juzgador.]
+]
+
+.box-inv-4.sp-after.smaller[
+
++ El proceso como mero mecanismo de resolución de controversias antes que como medio de .white[actuación del derecho.]
+]
+
+.box-4.small[
++ El proceso como un .naranja[mecanismo de solución de conflictos donde se aplica el derecho vigente en un país sobre los hechos sucedidos] (decir derecho,aplicar derecho) antes que como mera instancia de resolución de controversias.
+]
+
+---
+
+layout: false
+name: confrontacion
+class: center middle section-title section-title-4 animated fadeIn
+
+# Confrontación de posiciones
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Confrontación de posiciones
+
+--
+
+.box-4[Exposiciones orales: pretensiones y fundamentos]
+
+--
+
+.box-inv-4[¿Posibilidad de modificación de la demanda?]
+
+---
+# Actuación probatoria
+
+.box-4[¿Fijación de puntos controvertidos?]
+
+--
+
+.box-4[Hechos que no necesitan de actuación probatoria]
+
+--
+
+.box-4[Medios de prueba dejados de lado]
+
+--
+
+.box-4[Medios de prueba admitidos]
+
+--
+
+.box-4[Cuestiones probatorias sobre los hechos admitidos]
+
+--
+
+.box-4[Juramento conjunto]
+
+--
+
+.box-4[Actuación de los medios de prueba]
+
+---
+
+layout: false
+name: conducta
+class: center middle section-title section-title-4 animated fadeIn
+
+# Alegatos
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Alegatos
+
+--
+
+.box-4[Luego de finalizada la actuación probatoria]
+
+--
+
+.box-4[¿Tiempo de preparación?]
+
+---
+
+layout: false
+name: sentencia
+class: center middle section-title section-title-4 animated fadeIn
+
+# Sentencia
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Sentencia
+
+--
+
+.box-4[Fallo de la sentencia]
+
+--
+
+.box-4[Notificación en estrado]
+
+--
+
+.box-4[Notificación en casilla electrónica]
+
+---
+
+# Sentencia
+
+
+.box-4.small[Fallo ultra y extra petita]
+
+.box-inv-4.small[Congruencia y derecho de defensa]
+
+.box-inv-4.small[Motivación]
+  
+---
+# Artículo 31
+
+.box-4[Contenido de la sentencia]
+
+.box-inv-4.tiny[
+El juez recoge los fundamentos de hecho y de derecho esenciales para motivar su decisión.
+La existencia de hechos admitidos no enerva la necesidad de fundamentar la sentencia en derecho.
+
+La sentencia se pronuncia sobre todas las articulaciones o medios de defensa propuestos por las partes y sobre la demanda, en caso de que la declare fundada total o parcialmente, indicando los derechos reconocidos, así como las prestaciones que debe cumplir el demandado. Si la prestación ordenada es de dar una suma de dinero, la misma debe estar indicada en monto líquido. El juez puede disponer el pago de sumas mayores a las demandadas si apareciere error en el cálculo de los derechos demandados o error en la invocación de las normas aplicables.
+
+Tratándose de pretensiones con pluralidad de demandantes o demandados, el juez debe pronunciarse expresamente por los derechos y obligaciones concretos que corresponda a cada uno de ellos. 
+
+El pago de los intereses legales y la condena en costos y costas no requieren ser demandados. Su cuantía o modo de liquidación es de expreso pronunciamiento en la sentencia.
+]
+
+---
+layout: false
+
+background-image: url(img/ultim.png)
+background-size: cover 
+
+???
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+¡Muchas gracias!
+
+.box-4.medium[pgparede@pucp.pe]
+

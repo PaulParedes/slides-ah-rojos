@@ -1,0 +1,414 @@
+---
+title: "Proceso laboral"
+author: "Paul Paredes"
+date: "29 de octubre de 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Los procesos laborales
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+CICAJ | Departamento Académico de Derecho
+
+.light.small[Pontificia Universidad Católica del Perú<br>
+29 de octubre, 2021]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Los procesos colectivos]
+
+
+.box-4.small[Los derechos difusos]
+
+
+.box-4.small[Los derechos colectivos en sentido estricto]
+
+
+.box-4.small[Los derechos individuales homogéneos]
+
+
+.box-4.small[La demanda de liquidación de derechos individuales*]
+
+
+---
+
+layout: false
+name: procesoscolectivos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Los procesos colectivos
+
+.box-inv-4.medium[Participación de los sindicatos]
+
+
+---
+
+layout: true
+class: title title-4
+
+
+---
+# Los derechos colectivos 
+
+.box-4[Desde la doctrina de los procesos colectivos se reconocen tres tipos de derechos colectivos:]
+
+.box-inv-4[1.Los derechos o intereses difusos]
+
+.box-inv-4[2.Los derechos colectivos en sentido estricto]
+
+.box-inv-4[3.Los derechos individuales homogéneos]
+
+---
+# Los derechos o intereses difusos
+
+.box-4[Los derechos o intereses difusos son derechos supraindividuales (o también, “transindividual”), indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminables, y que resultan vinculadas por circunstancias de hecho en una situación específica.]
+
+***
+
+.box-inv-4[
+Derecho difuso = Derecho supraindividual + Indivisible + Personas Indeterminables + Circunstancias de hecho
+
+(No existe un derecho a salirse del grupo: right to opt out)
+]
+
+---
+# Los dd cc en sentido estricto
+
+.box-4[
+Los derechos colectivos en sentido estricto son derechos supraindividuales, indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminadas pero determinables, y que resultan vinculadas por una relación jurídica previa.
+]
+
+***
+
+.box-inv-4[
+Derecho colectivo = Derecho supraindividual + Indivisible + Personas Indeterminadas + Relación jurídica
+
+(No existe un derecho a salirse del grupo: right to opt out)
+]
+
+---
+# Los derechos individuales homogéneos
+
+.box-4[
+Los derechos individuales homogéneos son derechos subjetivos individuales, divisibles, de titularidad de los miembros del grupo, categoría o clase, que provienen de un origen común.
+]
+
+***
+
+.box-inv-4[
+Derecho individual homogéneo = Derecho individual + Divisible + Miembro del grupo + Origen común
+
+(Siempre conserva su derecho a salirse del grupo: right to opt out)
+]
+
+---
+# ¿Donde está lo colectivo?
+
+.box-4[
++ En el propio derecho y, por consecuencia, en el modo colectivo de darles tutela. (DF y DCESE)
+]
+
+.box-inv-4[
++ En el modo de darle tutela: el derecho no es colectivo, sino individual, pero el modo de buscar tutela es colectivo. (DIH)
+]
+
+---
+# ¿La materia es relevante?
+
+.box-4[Puede tratarse de cualquier derecho]
+
+.box-inv-4[Obviamente, también la faceta colectiva de los tradicionales derechos colectivos del trabajo]
+
+.box-4[Lo relevante es el modo colectivo de buscar tutela:]
+
+.box-inv-4[ya sea porque involucra un derecho colectivo (supraindividual e indivisible); o,]
+
+.box-inv-4[porque involucra a un grupo de personas afectadas en sus derechos individuales por un acto común.]
+
+---
+# Los procesos colectivos
+
+.box-4[Los procesos colectivos en el *civil law* tienen su inspiración en las *class actions* del derecho norteamericano.]
+
+.box-4[La NLPT se inspira en:]
+
+.box-inv-4.small[La regla 23 de las Federal Rules of Civil Procedure de 1938.]
+
+.box-inv-4.small[El Código de Protección y Defensa del Consumidor de Brasil de 1990.]
+
+.box-inv-4.small[El Código Modelo de Procesos Colectivos para Iberoamérica.]
+  
+---
+# ¿Qué es un proceso colectivo?
+
+.box-4[Desde una perspectiva general una acción colectiva o de clase es aquella]
+
+.box-inv-4.small[
+(1) promovida por un sujeto legitimado,
+
+(2) donde la pretensión deducida consiste en proteger un derecho colectivo o a un colectivo de personas, 
+
+(3) a partir de una sentencia que vincula a tales colectivos.
+]
+
+---
+# Elementos que definen un proc. colect.
+
+.box-inv-4[
+**Primero**: una legitimidad (especial o extraordinaria) que se aparta de la clásica legitimidad sustentada en la afirmación de la titularidad del derecho subjetivo material. La legitimidad proviene de la ley y se atribuye al margen de que las pretensiones deducidas sean afirmadas como de titularidad de quien demanda. En estos casos, el hecho de que quien demande pueda ser, a su vez, titular del derecho discutido, sería solo una coincidencia, un hecho contingente, no necesario para la activación del proceso.
+]
+---
+# Elementos que definen un proc. colect.
+
+.box-inv-4[
+**Segundo**: que se trate de un derecho colectivo que, como se ha visto, son de tres tipos: los derechos colectivos difusos, los derechos colectivos en sentido estricto y los derechos individuales homogéneos. Estos últimos, a pesar de ser individuales, son colectivos por el modo de ser defendidos, en tanto proyecta su solución al grupo-de-individuos-afectados (que se constituye así en el colectivo protegido por el proceso colectivo).
+]
+
+---
+# Elementos que definen un proc. colect.
+
+.box-inv-4[
+**Tercer elemento**: la sentencia que proyecta su solución al colectivo. Aquí se revela la finalidad multiplicadora del proceso colectivo: un proceso iniciado por cualquier legitimado que se proyecta sobre cualquiera de los tres tipos de derecho colectivo. 
+]
+
+???
+
+Un asunto de particular importancia, sobre el cual la NLPT no da una respuesta expresa, es el caso de la sentencia infundada: ¿genera los efectos de la cosa juzgada respecto de todo el colectivo o solamente respecto de los demandantes puntuales? Esta ausencia de regulación expresa del caso anotado no significa que se deje de lado la necesaria conexión que debe haber con los principios y valores recogidos en su título preliminar. 
+
+---
+# Los procesos colectivos y la NLPT
+
+.box-4[La legitimidad especial]
+
+.left.small[
+
+Artículo 9.- Legitimación especial
+
+> 9.1 Las pretensiones derivadas de la afectación al derecho a la no discriminación en el acceso al empleo o del quebrantamiento de las prohibiciones de trabajo forzoso e infantil pueden ser formuladas por los afectados directos, una organización sindical, una asociación o institución sin fines de lucro dedicada a la protección de derechos fundamentales con solvencia para afrontar la defensa a criterio del juez, la Defensoría del Pueblo o el Ministerio Público.
+]
+
+---
+# Los procesos colectivos y la NLPT
+
+.box-4[La legitimidad especial]
+
+.left.small[
+>9.2 Cuando se afecten los derechos de libertad sindical, negociación colectiva, huelga, a la seguridad y salud en el trabajo y, en general, cuando se afecte un derecho que corresponda a un grupo o categoría de prestadores de servicios, pueden ser demandantes el sindicato, los representantes de los trabajadores, o cualquier trabajador o prestador de servicios del ámbito.
+]
+
+---
+# Poniendo ejemplos
+
++ Litisconsorcio (p. colectivo de baja intensidad)
+
++ Tratándose de casos de discriminación en el acceso al empleo, trabajo forzoso y trabajo infantil –que tienen un fuerte componente de derechos difusos– la ley atribuye legitimidad especial a:
+  + Cualquier organización sindical
+  + Cualquier asociación o institución sin fines de lucro
+  + La Defensoría del Pueblo
+  + El Ministerio Público.
+
+
+---
+# Poniendo ejemplos
+
+De otro lado, en el caso de los derechos colectivos laborales (libertad sindical, negociación colectiva y huelga) y, en general, cuando hay una afectación homogénea a un colectivo, la ley atribuye legitimidad especial a:
+
+1. Cualquier sindicato del ámbito;
+
+2. Los representantes de los trabajadores del ámbito; o,
+
+3. Cualquier trabajador o prestador de servicios del ámbito.
+
+---
+# ADVERTENCIA
+
+.box-4.small[
+En este punto debe advertirse que la actuación de los sindicatos no es en vía de representación de los afectados ni está circunscrita a sus afiliados. Es una actuación distinta. En estos casos el sindicato no actúa en representación de sus afiliados (para eso está el artículo 8°), sino en defensa del grupo o categoría de trabajadores del ámbito: ya sea en defensa de un derecho colectivo en sentido estricto o en defensa de los derechos individuales homogéneos. Se trata de dos maneras distintas en que puede actuar el sindicato para la defensa de los derechos laborales.
+]
+
+---
+# Por ejemplo:
+
+.box-inv-4.sp-after.smaller[
++ El caso de la modificación colectiva de los horarios de trabajo que afecta a un grupo o categoría de trabajadores, donde el sindicato que impugna la medida no actúa en representación de sus afiliados sino del grupo o categoría.]
+
+.box-inv-4.sp-after.smaller[
++ El procedimiento de cese colectivo por fuerza mayor que culmina con el mandato de pago de las remuneraciones a favor de los trabajadores afectados con la medida, donde el sindicato interviniente solicita el cumplimiento del mandato a favor del grupo afectado.]
+
+.box-inv-4.smaller[
++ El cumplimiento de un laudo arbitral en el marco de un sindicato mayoritario, donde el sindicato pide su cumplimiento a favor de todos los trabajadores del ámbito (afiliados y no afiliados).]
+
+---
+# ADVERTENCIA
+
+Esto es diferente a, por ejemplo:
+
++ El sindicato demanda el pago de un beneficio a favor de cierto número determinado de sus afiliados. 
+
++ O el caso en que el sindicato actúa en representación de alguno de sus dirigentes sindicales solicitando el cese de un acto de hostilidad.
+
+---
+# Los derechos colectivos
+
+.box-inv-4[El artículo 9 y los tres tipos de derechos colectivos: los derechos difusos, los derechos colectivos en sentido estricto y los derechos individuales homogéneos.]
+
+---
+# Los derechos difusos, ejemplos:
+
+.box-inv-4.smaller[
+Los derechos o intereses difusos son derechos supraindividuales, indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminables, y que resultan vinculadas por circunstancias de hecho en una situación específica.
+
+Un primer caso de defensa de derechos difusos laborales la encontraríamos en la acción de inconstitucional por ejemplo si una ley vulnerase el derecho de los trabajadores (presentes y futuros) a gozar de una remuneración equitativa y suficiente. 
+
+Otro mecanismo de defensa sería la acción popular si, por ejemplo, un reglamento afectase el derecho de los dirigentes sindicales a gozar de licencias sindicales sin injerencia del Estado ni de los empleadores. 
+
+Son derechos difusos porque involucran a un colectivo en su conjunto, respecto del cual sus miembros son indeterminables, donde a todos se les afecta por igual, por el solo hecho de encontrarse en las mismas circunstancias. 
+]
+
+---
+# Los derechos difusos, ejemplos:
+
+1. Discriminación en el acceso al empleo,
+2. Trabajo forzoso y
+3. Trabajo infantil. 
+
+Son tres supuestos de derechos difusos en tanto involucran a un colectivo, cuyos miembros son indeterminables, afectados por igual, unidos por circunstancias de hecho. 
+
+---
+# Los derechos difusos, ejemplos:
+
+.left.small[
+Sería, por ejemplo, el caso de una oferta de empleo discriminatoria por razón de sexo. Si una empresa ofrece un empleo y lo limita a los hombres, entonces el colectivo de las mujeres, cuyos miembros son indeterminables, se ven afectadas en su conjunto (no individualmente), por el hecho de ser potenciales candidatas al referido empleo. 
+
+O el caso de una empresa que realice actividades que signifiquen una vulneración a las prohibiciones de trabajo forzoso o trabajo infantil, respecto de lo cual existen colectivos afectados por tales prácticas, por ejemplo, en el reclutamiento de las personas para tales actividades prohibidas. 
+
+En estos casos, la gravedad es tan grande y la dificultad de defensa mayor, que la NLPT atribuye legitimidad, como vimos, a cualquier sindicato, una organización sin fines de lucro, la Defensoría del Pueblo y el Ministerio Público.
+]
+
+---
+# Los DC en sentido estricto, ejemplos:
+
+Estos tres mismos casos también podrían ser ejemplos de derechos colectivos en sentido estricto si en algún momento los miembros del grupo terminan vinculados jurídicamente. 
+
+Sería el caso de los grupos seleccionados para etapas posteriores de contratación o reclutamiento, o si es que luego se llega a materializar relaciones laborales concretas. (Grupos de trabajadores que sufren discriminación por sexo, o los grupos que se encuentran bajo una relación laboral prohibida de trabajo forzoso o trabajo infantil).
+
+---
+# Los DC en sentido estricto, ejemplos:
+
+Otros ejemplos de derechos colectivos en sentido estricto serían los casos vinculados (en su faceta colectiva) a la libertad sindical, negociación colectiva, huelga, seguridad y salud en el trabajo, en tanto sea el grupo en su conjunto el afectado.
+
+---
+# Los derechos individuales homogéneos
+
+.left.small[
+Y en cuanto a los derechos individuales homogéneos (derechos subjetivos individuales, divisibles, de titularidad de los miembros del grupo, categoría o clase, que provienen de un origen común) serían los más. 
+
+El derecho pertenece a cada individuo. 
+
+Lo colectivo, en estos casos, reside en el modo (colectivo) de buscar una tutela uniforme para los miembros del grupo. Tutela uniforme que se justifica en el hecho común. 
+
+Hecho común que no significa exactamente el mismo hecho físico, sino el mismo hecho lesivo. 
+]
+
+---
+# Los DIH, ejemplos
+
+.box-4.small[
+
+Por ejemplo, el despido de un grupo de trabajadores a partir del alegato de que la empresa no puede seguir funcionando. A pesar de que las cartas de despido puedan ser de fechas diferentes, el hecho lesivo sería el mismo pues a todo el grupo se le da el mismo tratamiento (se le despide) a partir de un mismo hecho lesivo: alegar una misma causa de despido no sustentada en la ley.
+]
+
+---
+# La sentencia
+
+.box-4[
+El tercer elemento es la sentencia que proyecta su solución al colectivo. 
+]
+
+.box-inv-4.small[
+Aquí se revela la finalidad multiplicadora del proceso colectivo: un proceso iniciado por cualquier legitimado que se proyecta sobre cualquiera de los tres tipos de derecho colectivo. 
+]
+???
+
+Evidentemente, si la demanda es declarada fundada no se produce mayor debate pues ello beneficiará al colectivo en su conjunto, independiente que, en el caso de los derechos individuales homogéneos, alguno de los beneficiarios no reclame lo que le corresponda o incluso lo rechace. Nada de eso menoscaba los alcances de la sentencia. 
+
+La discusión puede producirse más bien cuando la sentencia desestima la pretensión en el fondo. Sobre ello la NLPT no da una respuesta expresa. Esta ausencia de regulación expresa del punto, sin embargo, no significa que se deje de lado la necesaria conexión que debe haber con los principios y valores recogidos en su título preliminar, dentro de los cuales prima el concepto de acceso a la justicia, por lo cual, una interpretación conforme a esos valores permitiría que el alcance de la cosa juzgada se circunscriba únicamente a quienes promovieron la demanda finalmente desestimada, pues de lo contrario el efecto multiplicador de acceso a la justicia que anima la instauración de los procesos colectivos resultaría contraproducente.
+
+
+---
+# El artículo 18
+
+.box-4.small[La demanda de liquidación de derechos individuales]
+
+.box-inv-4.smaller[
+Artículo 18.- Demanda de liquidación de derechos individuales
+
+Cuando en una sentencia se declare la existencia de afectación de un derecho que corresponda a un grupo o categoría de prestadores de servicios, con contenido patrimonial, los miembros del grupo o categoría o quienes individualmente hubiesen sido afectados pueden iniciar, sobre la base de dicha sentencia, procesos individuales de liquidación del derecho reconocido, siempre y cuando la sentencia declarativa haya sido dictada por el Tribunal Constitucional o la Corte Suprema de Justicia de la República, y haya pasado en autoridad de cosa juzgada.
+
+En el proceso individual de liquidación del derecho reconocido es improcedente negar el hecho declarado lesivo en la sentencia del Tribunal Constitucional o de la Corte Suprema de Justicia de la República. El demandado puede, en todo caso, demostrar que el demandante no se encuentra en el ámbito fáctico recogido en la sentencia.
+]
+
+???
+
+El artículo 18 –la demanda de liquidación de derechos individuales– se inspiró en la doctrina del Tribunal Constitucional del estado de cosas inconstitucionales. Que se haya inspirado no significa que haya terminado siendo lo mismo. 
+
+La idea detrás del artículo 18 es la posibilidad (no la obligación, no la necesidad) de multiplicar los efectos (benéficos) de una sentencia (del Tribunal Constitucional o de la Corte Suprema) fundamentada en el reconocimiento de un hecho lesivo que afecta a más de una persona prestadora de servicios. El propósito es utilizar (por los propios afectados, por cada uno de ellos, individualmente o en litisconsorcio) el reconocimiento del hecho lesivo que les afecta. Esta idea se sustenta en el principio de igualdad en la aplicación de la ley y hace tributo al valor de la predictibilidad de las decisiones judiciales.
+
+En este escenario, sí hay un propósito nuevo: que la demanda sirva para multiplicar los efectos de una anterior y, en ese sentido, demandar directamente la liquidación del derecho que le corresponde a cada quien. En este escenario el nuevo demandante pide directamente el pago de la suma de dinero que a él le corresponda, donde ya no es necesario discutir la existencia del hecho lesivo pues este ya viene recogido en la sentencia que se aprovecha. Aquí el propósito de la demanda es liquidar lo que le toca a cada quien, a partir de los fundamentos de una sentencia previa.
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+.box-4.medium[pgparede@pucp.pe]

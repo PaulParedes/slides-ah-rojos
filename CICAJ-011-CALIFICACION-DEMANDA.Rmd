@@ -1,0 +1,1210 @@
+---
+title: "Calificación de la demanda"
+author: "Paul Paredes"
+date: "21 de octubre de 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Calificación de la demanda (NLPT)
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+CICAJ | Departamento Académico de Derecho
+
+.light.small[Pontificia Universidad Católica del Perú<br>
+21 de octubre, 2021]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Presentación]
+
+--
+
+.box-4.small[La (necesidad de) reforma de los procesos laborales en América Latina]
+
+--
+
+.box-4.small[Los ejes de la reforma procesal en Perú (2008)]
+
+--
+
+.box-4.small[Actividades realizadas, necesarias y beneficios esperados]
+
+--
+
+.box-4.small[La tendencia en América Latina]
+
+--
+
+.box-4.small[Principios y fundamentos del proceso laboral]
+
+---
+
+layout: false
+name: principios
+class: center middle section-title section-title-4 animated fadeIn
+
+# Principios y fundamentos en la NLPT
+
+---
+
+layout: true
+class: title title-4
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo I.- Principios del proceso laboral**
+
+El proceso laboral se inspira, entre otros, en los principios de inmediación, oralidad, concentración, celeridad, economía procesal y veracidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo II.- Ámbito de la justicia laboral**
+
+Corresponde a la justicia laboral resolver los conflictos jurídicos que se originan con ocasión de las prestaciones de servicios de carácter personal, de naturaleza laboral, formativa, cooperativista o administrativa; están excluidas las prestaciones de servicios de carácter civil, salvo que la demanda se sustente en el encubrimiento de relaciones de trabajo. Tales conflictos jurídicos pueden ser individuales, plurales o colectivos, y estar referidos a aspectos sustanciales o conexos, incluso previos o posteriores a la prestación efectiva de los servicios.
+]
+---
+# NLPT 
+
+.box-inv-4.normal[**Artículo III.- Fundamentos del proceso laboral**
+
+En todo proceso laboral los jueces deben evitar que la desigualdad entre las partes afecte el desarrollo o resultado del proceso, para cuyo efecto procuran alcanzar la igualdad real de las partes, privilegian el fondo sobre la forma, interpretan los requisitos y presupuestos procesales en sentido favorable a la continuidad del proceso, observan el debido proceso, la tutela jurisdiccional y el principio de razonabilidad. En particular, acentúan estos deberes frente a la madre gestante, el menor de edad y la persona con discapacidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[
+
+Los jueces laborales tienen un rol protagónico en el desarrollo e impulso del proceso. Impiden y sancionan la inconducta contraria a los deberes de veracidad, probidad, lealtad y buena fe de las partes, sus representantes, sus abogados y terceros.
+
+El proceso laboral es gratuito para el prestador de servicios, en todas las instancias, cuando el monto total de las pretensiones reclamadas no supere las setenta (70) Unidades de Referencia Procesal (URP).
+
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo IV.- Interpretación y aplicación de las normas en la resolución de los conflictos de la justicia laboral**
+
+Los jueces laborales, bajo responsabilidad, imparten justicia con arreglo a la Constitución Política del Perú, los tratados internacionales de derechos humanos y la ley. Interpretan y aplican toda norma jurídica, incluyendo los convenios colectivos, según los principios y preceptos constitucionales, así como los precedentes vinculantes del Tribunal Constitucional y de la Corte Suprema de Justicia de la República.
+]
+
+---
+
+layout: false
+name: presupuestos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Presupuestos procesales y condiciones de la acción
+
+---
+
+layout: true
+class: title title-4
+
+
+---
+# Presupuestos procesales
+
+## Para la existencia de una relación procesal válida
+
+![](img/mermaid-diagram-20211021162036.svg)
+
+---
+# Condiciones de la acción
+
+## Presupuestos para la emisión de una decisión de fondo
+
+![](img/mermaid-diagram-20211021161745.svg)
+
+---
+
+layout: false
+name: pretensiones
+class: center middle section-title section-title-4 animated fadeIn
+
+# Competencia (materia [tipo de relación], cuantía, grado, territorio)
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Cuáles pretensiones?
+
+--
+
+.box-4.normal[Respuesta 1: (materia*)]
+
+.box-inv-4.normal[Las pretensiones que están listadas en el artículo 2 de la NLPT, sin ser exclusivas.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-4.normal[Las pretensiones relacionadas a los siguientes aspectos o temas:]
+
+.box-inv-4.small[a) El nacimiento, desarrollo y extinción de la prestación personal de servicios; así como a los correspondientes actos jurídicos.]
+
+.box-inv-4.small[b) La responsabilidad por daño patrimonial o extrapatrimonial, incurrida por cualquiera de las partes involucradas en la prestación personal de servicios, o terceros en cuyo favor se presta o prestó el servicio.]
+
+.box-inv-4.small[c) Los actos de discriminación en el acceso, ejecución y extinción de la relación laboral.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-inv-4.small[d) El cese de los actos de hostilidad del empleador, incluidos los actos de acoso moral y hostigamiento sexual, conforme a la ley de la materia.]
+
+.box-inv-4.small[e) Las enfermedades profesionales y los accidentes de trabajo.]
+
+.box-inv-4.small[f) La impugnación de los reglamentos internos de trabajo.]
+
+.box-inv-4.small[g) Los conflictos vinculados a una organización sindical y entre organizaciones sindicales, incluida su disolución.]
+
+---
+# ¿Cuáles pretensiones?
+
+.box-inv-4.small[h) El cumplimiento de obligaciones generadas o contraídas con ocasión de la prestación personal de servicios exigibles a institutos, fondos, cajas u otros.]
+
+.box-inv-4.small[i) El cumplimiento de las prestaciones de salud y pensiones de invalidez, a favor de los asegurados o los beneficiarios, exigibles al empleador, a las entidades prestadoras de salud o a las aseguradoras.]
+
+.box-inv-4.small[j) El Sistema Privado de Pensiones.]
+
+.box-inv-4.small[k) La nulidad de cosa juzgada fraudulenta laboral.]
+
+.box-inv-4.small[l) **(OTROS)**]
+
+---
+class: animated, fadeIn
+
+# Ámbito de la justicia laboral
+
+.box-inv-4.normal[Se aplica a TODO conflicto jurídico derivado de una prestación personal de servicios remunerada:]
+
+--
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-gure{background-color:#9aff99;border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;
+  vertical-align:top}
+.tg .tg-yd3j{border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-gure">De naturaleza</th>
+    <th class="tg-gure">Sobre derechos</th>
+    <th class="tg-gure">Respecto de temas</th>
+    <th class="tg-gure">Ocurridos</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yd3j"><span style="color:#000">Laboral</span><br><br><span style="color:#000">Formativa</span><br><br><span style="color:#000">Cooperativista</span><br><br><span style="color:#000">Administrativa</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Individuales</span><br><br><span style="color:#000">Plurales</span><br><br><span style="color:#000">Colectivos</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Sustanciales</span><br><br><span style="color:#000">Conexos</span></td>
+    <td class="tg-yd3j"><span style="color:#000">Antes</span><br><br><span style="color:#000">Durante</span><br><br><span style="color:#000">Después</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# ¿Cuáles pretensiones?
+
+.box-4.normal[Respuesta 2: (tipo de relación)]
+
+.box-inv-4.normal[Todas las pretensiones relativas a cualquiera de los 4 tipos de relaciones considerados: laboral, formativa, cooperativista y administrativa.
+]
+
+---
+# Lugar geográfico 
+
+## Competencia por territorio
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6c8b{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-a9uw{background-color:#EA7177;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">Regla, a elección del demandante</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">Si la demanda es dirigida contra quien prestó los servicios</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En el caso de  impugnación de laudos arbitrales económicos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-6c8b"><span style="color:#000">El juez del lugar del domicilio principal del demandado, o,</span><br><br><span style="color:#000">El juez del último lugar donde se prestaron los servicios</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Solo es competente el juez del domicilio del prestador de servicios</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Solo es competente la sala laboral del lugar donde se expidió el laudo</span></td>
+  </tr>
+</tbody>
+</table>
+
+
+<br/>
+
+***
+
+###### La competencia por razón de territorio solo puede ser prorrogada cuando resulte a favor del prestador de servicios.
+
+---
+# Órgano jurisdiccional 
+
+## Juzgados especializados de trabajo
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6c8b{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-a9uw{background-color:#9aff99;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso ordinario laboral</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso abreviado laboral</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso contencioso administrativo</span></th>
+    <th class="tg-a9uw"><span style="font-weight:bold;color:#000">En proceso de ejecución</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-6c8b"><span style="color:#000">Todo conflicto jurídico de naturaleza laboral, formativa o cooperativista, </span><span style="font-weight:bold;color:#000">mayor 50 URP o sin expresión monetaria</span><br><br><span style="color:#000">El listado de materias es meramente ilustrativo</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Reposición, cuando se plantea como pretensión principal única</span><br><br><span style="color:#000">Pretensiones relativas a la vulneración de la libertad sindical</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Todo conflicto jurídico de naturaleza laboral, administrativa o de seguridad social, de derecho público</span><br><br><span style="color:#000">Impugnación de actuaciones de la AAT</span></td>
+    <td class="tg-6c8b"><span style="color:#000">Títulos ejecutivos mayor a 50 URP</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# Órgano jurisdiccional 
+
+## Juzgados de paz letrados laborales
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-e904{font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-jtsx{background-color:#9aff99;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">En proceso abreviado laboral</span></th>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">En proceso de ejecución</span></th>
+    <th class="tg-jtsx"><span style="font-weight:bold;color:#000">Procesos no contenciosos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-e904"><span style="color:#000">Las pretensiones:</span><br><br><span style="color:#000">. atribuidas originalmente a los Juzgados de Trabajo,</span><br><br><span style="color:#000">1. que sean obligaciones de dar, </span><span style="text-decoration:underline;color:#000">y</span><br><br><span style="color:#000">2. hasta 50 URP</span></td>
+    <td class="tg-e904"><span style="color:#000">Títulos ejecutivos hasta 50 URP</span><br><br><span style="color:#000">Cobranza de aportes previsionales del sistema privado de pensiones retenidos por el empleador, sin importar la cuantía</span></td>
+    <td class="tg-e904"><span style="color:#000">Todos los asuntos no contenciosos, sin importar la cuantía</span></td>
+  </tr>
+</tbody>
+</table>
+
+---
+# Órgano jurisdiccional
+
+## Salas laborales superiores
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-67cq{border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-sbdv{background-color:#9aff99;border-color:inherit;font-family:Georgia, serif !important;;font-size:20px;text-align:left;
+  vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso de acción popular</span></th>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso de anulación de laudo arbitral jurídico</span></th>
+    <th class="tg-sbdv"><span style="font-weight:bold;color:#000">En proceso impugnativo de laudos arbitrales económicos</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-67cq"><span style="color:#000">La acción popular en materia laboral, conforme a las reglas del Código Procesal Constitucional</span></td>
+    <td class="tg-67cq"><span style="color:#000">La anulación de laudo que resuelve un conflicto jurídico de naturaleza laboral, conforme a las reglas de la Ley de Arbitraje</span></td>
+    <td class="tg-67cq"><span style="color:#000">Impugnación de laudos arbitrales derivados de una negociación colectiva</span></td>
+  </tr>
+  <tr>
+    <td class="tg-67cq" colspan="3">* También conocen las contiendas de competencia y los conflictos de autoridad</td>
+  </tr>
+</tbody>
+</table>
+
+---
+
+layout: false
+name: capacidad
+class: center middle section-title section-title-4 animated fadeIn
+
+# Capacidad procesal
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Más de un demandante (16)
+
+.box-inv-4.normal[
+Cuando el proceso es iniciado por más de un
+demandante debe designarse a uno de ellos para que los
+represente y señalarse un domicilio procesal único.
+]
+
+---
+# Comparecencia con/sin abogado (16)
+
+.box-inv-4.normal[
+Los prestadores de servicios pueden comparecer
+al proceso sin necesidad de abogado cuando el total
+reclamado no supere las diez (10) Unidades de Referencia
+Procesal (URP). Cuando supere este límite y hasta las
+setenta (70) Unidades de Referencia Procesal (URP) es
+facultad del juez, atendiendo a las circunstancias del caso,
+exigir o no la comparecencia con abogado. En los casos
+en que se comparezca sin abogado debe emplearse el
+formato de demanda aprobado por el Poder Judicial.
+]
+
+---
+# Comparecencia menores (8.1)
+
+.box-inv-4.normal[
+8.1 Los menores de edad pueden comparecer sin
+necesidad de representante legal. En el caso de
+que un menor de catorce (14) años comparezca
+al proceso sin representante legal, el juez pone la
+demanda en conocimiento del Ministerio Público
+para que actúe según sus atribuciones. La falta
+de comparecencia del Ministerio Público no
+interfiere en el avance del proceso.
+]
+
+---
+# Comparencia sindicatos (8.2)
+
+.box-inv-4.normal[
+8.2 Los sindicatos pueden comparecer al proceso
+laboral en causa propia, en defensa de los
+derechos colectivos y en defensa de sus
+dirigentes y afiliados.
+]
+
+---
+# Comparencia sindicatos (8.3)
+
+.box-inv-4.normal[
+8.3 Los sindicatos actúan en defensa de sus dirigentes
+y afi liados sin necesidad de poder especial de
+representación; sin embargo, en la demanda o
+contestación debe identificarse individualmente
+a cada uno de los afiliados con sus respectivas
+pretensiones. En este caso, el empleador debe
+poner en conocimiento de los trabajadores la
+demanda interpuesta. La inobservancia de este
+deber no afecta la prosecución del proceso.
+La representación del sindicato no habilita al
+cobro de los derechos económicos que pudiese
+reconocerse a favor de los afi liados.
+]
+
+---
+
+layout: false
+name: requisitos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Requisitos de la demanda
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Requisitos de la demanda (16)
+
+.box-inv-4.small[De la norma procesal civil]
+
+.box-inv-4.small[Monto de cada extremo y total]
+
+.box-inv-4.small[No se incluye pliegos]
+
+.box-inv-4.small[Se indica la finalidad del medio de prueba]
+
+
+---
+
+layout: false
+name: interes-obrar
+class: center middle section-title section-title-4 animated fadeIn
+
+# Interés para obrar
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Caso especial de procedencia (20)
+
+.box-inv-4.normal[
+En el caso de pretensiones referidas a la prestación
+personal de servicios, de naturaleza laboral o
+administrativa de derecho público, no es exigible el
+agotamiento de la vía administrativa establecida según la
+legislación general del procedimiento administrativo, salvo que en el correspondiente régimen se haya establecido un procedimiento previo ante un órgano o tribunal específico, en cuyo caso debe recurrirse ante ellos antes de acudir al
+proceso contencioso administrativo.
+]
+
+---
+
+layout: false
+name: legitimidad-obrar
+class: center middle section-title section-title-4 animated fadeIn
+
+# Legitimidad para obrar
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Legitimidad especial (9.1)
+
+.box-inv-4.small[
+9.1 Las pretensiones derivadas de la afectación
+al derecho a la no discriminación en el acceso
+al empleo o del quebrantamiento de las
+prohibiciones de trabajo forzoso e infantil pueden
+ser formuladas por los afectados directos, una
+organización sindical, una asociación o institución
+sin fi nes de lucro dedicada a la protección
+de derechos fundamentales con solvencia
+para afrontar la defensa a criterio del juez, la
+Defensoría del Pueblo o el Ministerio Público.
+]
+
+---
+# Legitimidad especial (9.2)
+
+.box-inv-4.small[
+9.2 Cuando se afecten los derechos de libertad
+sindical, negociación colectiva, huelga, a la
+seguridad y salud en el trabajo y, en general,
+cuando se afecte un derecho que corresponda a
+un grupo o categoría de prestadores de servicios,
+pueden ser demandantes el sindicato, los
+representantes de los trabajadores, o cualquier
+trabajador o prestador de servicios del ámbito.
+]
+
+---
+
+layout: false
+class: center middle section-title section-title-4 animated fadeIn
+
+
+# Privilegio del fondo sobre la forma 
+
+.box-inv-4.normal[Interpretación de los requisitos y presupuestos procesales a favor de la continuidad del proceso]
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Informalismo y nulidades procesales
+
+.box-4.small[
+Las formas y sus límites
+]
+
+&nbsp;
+
+.box-inv-4.smaller[
+  + Res. Adm. 014-93-CE-PJ:
+    + Papel A4
+    + Indicar, parte superior derecha de los escritos, en orden descendente:
+      + Nombre del secretario,
+      + Número del expediente,
+      + Cuaderno del expediente en el que el escrito se presenta
+      + Numeración del escrito (130.4 C.P.C.)
+      
+  + Artículos 130 y ss. C.P.C.
+]
+
+---
+# Forma del escrito 
+
+.box-inv-4.tiny[
+Artículo  130.- El escrito que se presente al proceso se sujeta a las siguientes regulaciones:
+
+1. Es escrito en máquina de escribir u otro medio técnico;
+
+2. Se mantiene en blanco un espacio de no menos de tres centímetros en el margen izquierdo y dos en el derecho;
+
+3. Es redactado por un solo lado y a doble espacio;
+
+4. Cada interesado numerará correlativamente sus escritos;
+
+5. Se sumillará el pedido en la parte superior derecha;
+
+6. Si el escrito tiene anexos, éstos serán identificados con el número del escrito seguido de una letra;
+
+7. Se usa el idioma castellano, salvo que la ley o el Juez, a pedido de las partes, autoricen el uso del quechua o del aymara;
+
+8. La redacción será clara, breve, precisa y dirigida al Juez del proceso y, de ser el caso, se hará referencia al número de la resolución, escrito o anexo que se cite; y,
+
+9. Si el escrito contiene otrosíes o fórmulas similares, éstos deben contener pedidos independientes del principal.
+]
+
+---
+# Doctrina
+
+Sentencia Corte Constitucional Colombia T-204 1997
+
+.box-inv-4.smaller[
+“No se pueden sacrificar los referidos derechos, con la exigencia de formalismos extremos que no se acompasan con el mandato constitucional de la efectividad de los derechos y de la prevalencia del derecho sustancial Las formalidades procesales sólo se conciben como medios para garantizar la validez y la eficacia de los actos procesales, en cuanto estos tiendan a la realización de los derechos de los sujetos procesales, más no como simples ritualidades insustanciales.”
+]
+
+---
+# Teoría de las nulidades procesales
+
+STC n.° 00569-2003-AC/TC, fundamento 4. 
+
+Suplencia de los actos procesales deficientes
+
+.box-inv-4.tiny[
+
+Ahora bien, a efectos de determinar qué actos procesales pueden ser objeto de la suplencia, cabe distinguir los actos procesales viciados, en actos defectuosos, actos inválidos, y actos nulos.
+
+Los **actos defectuosos** son aquellos que se realizan sin que concurran todos los presupuestos, requisitos y condiciones que determinan su admisibilidad, pero que no generan afectación de principios o de derechos procesales constitucionales de relevancia y, por ese hecho, son inocuos. Por su parte, los **actos inválidos** son aquellos que se realizan incumpliendo los requisitos y condiciones que la ley prevé, dando lugar, a su vez, a la afectación de derechos o principios constitucionales, pero que, sin embargo, pueden ser subsanados o reparados por sí mismos, o eventualmente por medio de la intervención del juez (Binder Alberto. El incumplimiento de las formas procesales. Ad Hoc, Buenos Aires 2000. Pág. 96). Finalmente, los **actos nulos** son aquellos que, habiendo comprometido seriamente derechos o principios constitucionales, no pueden ser reparados.
+]
+
+---
+# STC n.° 00197-2005-PA/TC
+
+Fundamento 7
+
+.box-inv-4.smaller[
+Con independencia de lo ya afirmado en tomo a la causal que sustentó la nulidad de una de las resoluciones cuestionadas, este Tribunal debe recordar no sólo que la nulidad de los actos procesales está sujeta al principio de legalidad sino, además, que en un Estado Constitucional de Derecho, la nulidad de un acto procesal sólo puede decretarse cuando de por medio se encuentran comprometidos, con su inobservancia, derechos, principios o valores constitucionales. En efecto, la nulidad de los actos procesales no se justifica en la simple voluntad de la ley. No admite una consideración de la nulidad por la simple nulidad, porque así se expresa o porque o es voluntad de la ley, sino porque en el establecimiento de determinadas formalidades que se observen en dichos actos procesales, subyacen bienes constitucionalmente protegidos.
+]
+
+---
+
+# Algunas consecuencias:
+
+.box-inv-4.small[
+1. Subsanación (hacia adelante)
+]
+
+.box-inv-4.small[
+2. Suplencia 
+
+  + Suplencia de los actos procesales deficientes
+  
+    + De la demanda
+  
+    + De la prueba
+]
+
+---
+# Corte IDH, Caso Velásquez Rodríguez. 
+
+Sentencia de 29 de julio de 1988. Serie C No. 4
+
+.box-inv-4.tiny[
+"138. La forma en que la defensa ha sido conducida habría podido bastar para que muchos de los hechos afirmados por la Comisión se tuvieran válidamente por ciertos, sin más, en virtud del principio de que, salvo en la materia penal --que no tiene que ver en el presente caso, como ya se dijo (supra 134-135)--, el silencio del demandado o su contestación elusiva o ambigua pueden interpretarse como aceptación de los hechos de la demanda, por lo menos mientras lo contrario no aparezca de los autos o no resulte de la convicción judicial. La Corte, sin embargo, trató de suplir esas deficiencias procesales, admitiendo todas las pruebas que le fueron propuestas, aun en forma extemporánea, y ordenando de oficio algunas otras. Esto, por supuesto, sin renunciar a sus potestades discrecionales para apreciar el silencio o la inercia de Honduras ni a su deber de valorar la totalidad de los hechos."
+]
+
+También en: Corte I.D.H., Caso Godínez Cruz. Sentencia de 20 de enero de 1989. Serie C No. 5.
+
+
+---
+
+# Suplencia de la demanda
+
+&nbsp;
+
+.box-inv-4.large[¿Petitorio o pretensión implícitos?]
+
+---
+# CAS LAB 16940-2017
+
+(5 de diciembre de 2019)
+
+.box-inv-4.small[
+**Décimo Segundo:** Tal como se ha descrito, la litis ha discurrido respecto a la reposición por un despido incausado, al haberlo así propuesto el actor en su escrito de demanda, mas no, la desnaturalización de los contratos, lo que no importó que se ejerza también la defensa en dicho sentido, lo que conlleva a establecer que al haberse sentenciado, y otorgado el derecho por una pretensión no postulada, como es el caso de la desnaturalización de los contratos, se ha violentado el principio de congruencia procesal y por ende el debido proceso. 
+]
+
+???
+
+1. Una propuesta de solución
+
++ Las oraciones y las proposiciones en el derecho
+
++ Las oraciones: conjunto de símbolos lingüísticos con sentido completo:
+  + [ ] UNMSM
+  + [ ] deseoso Lima estaba fruta aromática en otro
+  + [ ] La Ciudad Blanca es la capital de Perú
+
+2. Una propuesta de solución
+
++ Es usual distinguir entre oraciones asertivas (descriptivas::proposiciones) (V/F) y oraciones directivas (prescriptivas::normas) (Jus/Inj; Vál/Inv; Efi/Inef)
+
+  + [ ] Juan trabaja en el Poder Judicial
+  + [ ] María es mayor de edad
+  + [ ] Está prohibido fumar en clase
+  + [ ] Quien por dolo causa un daño a otro está obligado a repararlo
+
+3. Una propuesta de solución
+
+Las proposiciones son el significado expresado por las oraciones asertivas
+
+  + María tiene 25 años de edad.
+  + La edad de María es de 25 años.
+  + Hace 25 años nació María.
+  + María le lleva 3 años a su hermano Jorge quien ya tiene 22 años cumplidos.
+  + No veo a María desde que cumplió 20 años. Han pasado 5 años desde ese entonces.
+
++ Varias oraciones asertivas pueden expresar la misma proposición
+
++ Los razonamientos se dan entre las proposiciones.
+
+  =
+
++ Las premisas de los razonamientos son proposiciones y de estas se infiere otra proposición que es la conclusión.
+
++ Las premisas y conclusiones permiten construir cadenas argumentativas, conformadas por proposiciones.
+
+---
+
+# Una propuesta de solución (1)
+
+.box-inv-4[Una conclusión no es sino una proposición derivada de una cadena argumentativa (los razonamientos) integrada por una serie de proposiciones.]
+
+.box-inv-4[Esa conclusión podría ser el petitorio o la pretensión.]
+
+---
+
+# Una propuesta de solución (2)
+
+.box-inv-4[¿Qué significaría la suplencia de la demanda en este contexto?]
+
+--
+
+.box-4["La determinación de la cadena de proposiciones]
+
+--
+
+.box-inv-4[¿Qué sería el petitorio implícito?]
+
+--
+
+.box-inv-4["La cadena de proposiciones que deriva **en** la pretensión explícita."]
+
+---
+class: animated, slideInRight
+layout: false
+
+
+![](https://raw.githubusercontent.com/PaulParedes/materiales/master/mermaid-implicito.svg)
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Petitorio o pretensión implícitos?
+
+.box-inv-4.medium[CAS LAB 16940-2017 (5 de diciembre de 2019)]
+
+.box-inv-4[El "petitorio implícito" ¿afecta la congruencia?]
+
+.box-inv-4[El "petitorio implícito" ¿vulnera el derecho de defensa?]
+
+
+???
+
+<ol>
+<li> Suplencia de la demanda
+  + Enfoque desde las proposiciones en el derecho
+  + Los razonamientos se dan entre las proposiciones
+  + Las premisas de los razonamientos son proposiciones y de esas se infiere otra proposición que es la conclusión; y así, se construye una cadena argumentativa.
+  + .red[En el caso:] la conclusión sería el petitorio o pretensión
+  + entonces, la suplencia de la demanda sería
+</ol>
+> determinar la cadena de proposiciones que deriva .red[en] la pretensión explícita
+
+
+---
+# Otras consecuencias
+
+.box-4.smaller[Impulso de oficio (¿abandono?; art. 30 NLPT)]
+
+.box-inv-4.smaller[
+
+Artículo 30.- Formas especiales de conclusión del proceso
+
+El proceso laboral puede concluir, de forma especial, por conciliación, allanamiento, reconocimiento de la demanda, transacción, desistimiento o abandono. También concluye cuando ambas partes inasisten por segunda vez a cualquiera de las audiencias programadas en primera instancia.
+
+(...)
+
+El abandono del proceso se produce transcurridos cuatro (4) meses sin que se realice acto que lo impulse. El juez declara el abandono a pedido de parte o de tercero legitimado, en la segunda oportunidad que se solicite, salvo que en la primera vez el demandante no se haya opuesto al abandono o no haya absuelto el traslado conferido.
+]
+---
+# Sentencia
+
+.box-4.small[Fallo ultra y extra petita]
+
+.box-inv-4.small[Congruencia y derecho de defensa]
+
+.box-inv-4.small[Motivación]
+  
+---
+# Artículo 31
+
+Contenido de la sentencia 
+
+.box-inv-4.tiny[
+El juez recoge los fundamentos de hecho y de derecho esenciales para motivar su decisión.
+La existencia de hechos admitidos no enerva la necesidad de fundamentar la sentencia en derecho.
+
+La sentencia se pronuncia sobre todas las articulaciones o medios de defensa propuestos por las partes y sobre la demanda, en caso de que la declare fundada total o parcialmente, indicando los derechos reconocidos, así como las prestaciones que debe cumplir el demandado. Si la prestación ordenada es de dar una suma de dinero, la misma debe estar indicada en monto líquido. El juez puede disponer el pago de sumas mayores a las demandadas si apareciere error en el cálculo de los derechos demandados o error en la invocación de las normas aplicables.
+
+Tratándose de pretensiones con pluralidad de demandantes o demandados, el juez debe pronunciarse expresamente por los derechos y obligaciones concretos que corresponda a cada uno de ellos. 
+
+El pago de los intereses legales y la condena en costos y costas no requieren ser demandados. Su cuantía o modo de liquidación es de expreso pronunciamiento en la sentencia.
+]
+
+---
+# Resumen
+
+.box-inv-4.tiny[
+1. Privilegio del fondo sobre la forma ...>
+2. Interpretación de los requisitos y presupuestos procesales a favor de la continuidad del proceso
+
++ Las formas y sus límites
+  + Res. Adm. 014-93-CE-PJ (Papel A4)
+  + Art. 130° y ss. C.P.C.
+  + Sentencia de la Corte Constitucional Colombia T-204 1997
+  + Corte IDH, Caso Velásquez Rodríguez, sentencia 29 julio 1988
+  + Corte IDH, Caso Godínez Cruz, sentencia 20 enero 1989
+  
++ Las nulidades procesales
+  + STC 00197-2005-PA/TC, fund. 7
+  + STC 00569-2003-AC/TC, fund. 4
+     + Actos defectuosos ...> actos inocuos
+     + Actos inválidos ...> subsanación o suplencia
+     + Actos nulos ...> ni subsanación ni suplencia
+]
+
+---
+# Resumen
+
+.box-inv-4.smaller[
++ Consecuencias de la aplicación de los principios estudiados
+  1. No observar falta de requisitos ante actos inocuos
+  2. Subsanación (hacia adelante)
+  3. Apercibimientos diferentes a la conclusión
+  4. Suplencia de los actos procesales deficientes
+  
++ Otras consecuencias
+  + Impulso de oficio
+  + Sentencia
+     + Fallo ultra y extra petita
+          + (Congruencia y derecho de defensa)
+]
+
+---
+
+layout: false
+name: procesoscolectivos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Los procesos colectivos
+
+.box-inv-4.medium[Participación de los sindicatos]
+
+
+---
+
+layout: true
+class: title title-4
+
+
+---
+# Los derechos colectivos 
+
+Desde la doctrina de los procesos colectivos se reconocen tres tipos de derechos colectivos:
+
+1. Los derechos o intereses difusos;
+
+2. Los derechos colectivos en sentido estricto; y,
+
+3. Los derechos individuales homogéneos.
+
+---
+# Los derechos o intereses difusos
+
+Los derechos o intereses difusos son derechos supraindividuales (o también, “transindividual”), indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminables, y que resultan vinculadas por circunstancias de hecho en una situación específica.
+
+***
+
+Derecho difuso = Derecho supraindividual + Indivisible + Personas Indeterminables + Circunstancias de hecho
+
+(No existe un derecho a salirse del grupo: right to opt out)
+
+---
+# Los dd cc en sentido estricto
+
+Los derechos colectivos en sentido estricto son derechos supraindividuales, indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminadas pero determinables, y que resultan vinculadas por una relación jurídica previa.
+
+***
+
+Derecho colectivo = Derecho supraindividual + Indivisible + Personas Indeterminadas + Relación jurídica
+
+(No existe un derecho a salirse del grupo: right to opt out)
+
+---
+# Los derechos individuales homogéneos
+
+Los derechos individuales homogéneos son derechos subjetivos individuales, divisibles, de titularidad de los miembros del grupo, categoría o clase, que provienen de un origen común.
+
+***
+
+Derecho individual homogéneo = Derecho individual + Divisible + Miembro del grupo + Origen común
+
+(Siempre conserva su derecho a salirse del grupo: right to opt out)
+
+---
+# ¿Donde está lo colectivo?
+
++ En el propio derecho y, por consecuencia, en el modo colectivo de darles tutela. (DF y DCESE)
+
++ En el modo de darle tutela: el derecho no es colectivo, sino individual, pero el modo de buscar tutela es colectivo. (DIH)
+
+---
+# ¿La materia es relevante?
+
++ Puede tratarse de cualquier derecho.
+
++ Obviamente, también la faceta colectiva de los tradicionales derechos colectivos del trabajo.
+
+***
+
+Lo relevante es el modo colectivo de buscar tutela:
+
++ ya sea porque involucra un derecho colectivo (supraindividual e indivisible); o,
+
++ porque involucra a un grupo de personas afectadas en sus derechos individuales por un acto común.
+
+---
+# Los procesos colectivos
+
++ Los procesos colectivos en el *civil law* tienen su inspiración en las *class actions* del derecho norteamericano.
+
++ La NLPT se inspira en:
+
+  +  La regla 23 de las Federal Rules of Civil Procedure de 1938. 
+
+  + El Código de Protección y Defensa del Consumidor de Brasil de 1990.
+  
+  + El Código Modelo de Procesos Colectivos para Iberoamérica.
+  
+---
+# ¿Qué es un proceso colectivo?
+
+Desde una perspectiva general una acción colectiva o de clase es aquella
+
+(1) promovida por un sujeto legitimado,
+
+(2) donde la pretensión deducida consiste en proteger un derecho colectivo o a un colectivo de personas, 
+
+(3) a partir de una sentencia que vincula a tales colectivos.
+
+---
+# Elementos que definen un proceso colectivo
+
++ **Primero**: una legitimidad (especial o extraordinaria) que se aparta de la clásica legitimidad sustentada en la afirmación de la titularidad del derecho subjetivo material. La legitimidad proviene de la ley y se atribuye al margen de que las pretensiones deducidas sean afirmadas como de titularidad de quien demanda. En estos casos, el hecho de que quien demande pueda ser, a su vez, titular del derecho discutido, sería solo una coincidencia, un hecho contingente, no necesario para la activación del proceso.
+
+---
+# Elementos que definen un proceso colectivo
+
++ **Segundo**: que se trate de un derecho colectivo que, como se ha visto, son de tres tipos: los derechos colectivos difusos, los derechos colectivos en sentido estricto y los derechos individuales homogéneos. Estos últimos, a pesar de ser individuales, son colectivos por el modo de ser defendidos, en tanto proyecta su solución al grupo-de-individuos-afectados (que se constituye así en el colectivo protegido por el proceso colectivo).
+
+---
+# Elementos que definen un proceso colectivo
+
++ **Tercer elemento**: la sentencia que proyecta su solución al colectivo. Aquí se revela la finalidad multiplicadora del proceso colectivo: un proceso iniciado por cualquier legitimado que se proyecta sobre cualquiera de los tres tipos de derecho colectivo. 
+
+???
+
+Un asunto de particular importancia, sobre el cual la NLPT no da una respuesta expresa, es el caso de la sentencia infundada: ¿genera los efectos de la cosa juzgada respecto de todo el colectivo o solamente respecto de los demandantes puntuales? Esta ausencia de regulación expresa del caso anotado no significa que se deje de lado la necesaria conexión que debe haber con los principios y valores recogidos en su título preliminar. 
+
+---
+# Los procesos colectivos y la NLPT
+
+## La legitimidad especial
+
+>Artículo 9.- Legitimación especial
+
+>9.1 Las pretensiones derivadas de la afectación al derecho a la no discriminación en el acceso al empleo o del quebrantamiento de las prohibiciones de trabajo forzoso e infantil pueden ser formuladas por los afectados directos, una organización sindical, una asociación o institución sin fines de lucro dedicada a la protección de derechos fundamentales con solvencia para afrontar la defensa a criterio del juez, la Defensoría del Pueblo o el Ministerio Público.
+
+---
+# Los procesos colectivos y la NLPT
+
+## La legitimidad especial
+
+>9.2 Cuando se afecten los derechos de libertad sindical, negociación colectiva, huelga, a la seguridad y salud en el trabajo y, en general, cuando se afecte un derecho que corresponda a un grupo o categoría de prestadores de servicios, pueden ser demandantes el sindicato, los representantes de los trabajadores, o cualquier trabajador o prestador de servicios del ámbito.
+
+---
+# Poniendo ejemplos
+
++ Litisconsorcio (p. colectivo de baja intensidad)
+
++ Tratándose de casos de discriminación en el acceso al empleo, trabajo forzoso y trabajo infantil –que tienen un fuerte componente de derechos difusos– la ley atribuye legitimidad especial a:
+  + Cualquier organización sindical
+  + Cualquier asociación o institución sin fines de lucro
+  + La Defensoría del Pueblo
+  + El Ministerio Público.
+
+
+---
+# Poniendo ejemplos
+
+De otro lado, en el caso de los derechos colectivos laborales (libertad sindical, negociación colectiva y huelga) y, en general, cuando hay una afectación homogénea a un colectivo, la ley atribuye legitimidad especial a:
+
+1. Cualquier sindicato del ámbito;
+
+2. Los representantes de los trabajadores del ámbito; o,
+
+3. Cualquier trabajador o prestador de servicios del ámbito.
+
+---
+# ADVERTENCIA
+
+.box-4.small[
+En este punto debe advertirse que la actuación de los sindicatos no es en vía de representación de los afectados ni está circunscrita a sus afiliados. Es una actuación distinta. En estos casos el sindicato no actúa en representación de sus afiliados (para eso está el artículo 8°), sino en defensa del grupo o categoría de trabajadores del ámbito: ya sea en defensa de un derecho colectivo en sentido estricto o en defensa de los derechos individuales homogéneos. Se trata de dos maneras distintas en que puede actuar el sindicato para la defensa de los derechos laborales.
+]
+
+---
+# Por ejemplo:
+
+.box-inv-4.smaller[
++ El caso de la modificación colectiva de los horarios de trabajo que afecta a un grupo o categoría de trabajadores, donde el sindicato que impugna la medida no actúa en representación de sus afiliados sino del grupo o categoría.]
+
+.box-inv-4.smaller[
++ El procedimiento de cese colectivo por fuerza mayor que culmina con el mandato de pago de las remuneraciones a favor de los trabajadores afectados con la medida, donde el sindicato interviniente solicita el cumplimiento del mandato a favor del grupo afectado.]
+
+.box-inv-4.smaller[
++ El cumplimiento de un laudo arbitral en el marco de un sindicato mayoritario, donde el sindicato pide su cumplimiento a favor de todos los trabajadores del ámbito (afiliados y no afiliados).]
+
+---
+# ADVERTENCIA
+
+Esto es diferente a, por ejemplo:
+
++ El sindicato demanda el pago de un beneficio a favor de cierto número determinado de sus afiliados. 
+
++ O el caso en que el sindicato actúa en representación de alguno de sus dirigentes sindicales solicitando el cese de un acto de hostilidad.
+
+---
+# Los derechos colectivos
+
+Desde la teoría de los procesos colectivos el artículo 9 también recoge los tres tipos de derechos colectivos: los derechos difusos, los derechos colectivos en sentido estricto y los derechos individuales homogéneos.
+
+---
+# Los derechos difusos, ejemplos:
+
+.box-inv-4.smaller[
+Los derechos o intereses difusos son derechos supraindividuales, indivisibles, de titularidad del grupo, categoría o clase de personas, que son indeterminables, y que resultan vinculadas por circunstancias de hecho en una situación específica.
+
+Un primer caso de defensa de derechos difusos laborales la encontraríamos en la acción de inconstitucional por ejemplo si una ley vulnerase el derecho de los trabajadores (presentes y futuros) a gozar de una remuneración equitativa y suficiente. 
+
+Otro mecanismo de defensa sería la acción popular si, por ejemplo, un reglamento afectase el derecho de los dirigentes sindicales a gozar de licencias sindicales sin injerencia del Estado ni de los empleadores. 
+
+Son derechos difusos porque involucran a un colectivo en su conjunto, respecto del cual sus miembros son indeterminables, donde a todos se les afecta por igual, por el solo hecho de encontrarse en las mismas circunstancias. 
+]
+
+---
+# Los derechos difusos, ejemplos:
+
+1. Discriminación en el acceso al empleo,
+2. Trabajo forzoso y
+3. Trabajo infantil. 
+
+Son tres supuestos de derechos difusos en tanto involucran a un colectivo, cuyos miembros son indeterminables, afectados por igual, unidos por circunstancias de hecho. 
+
+---
+# Los derechos difusos, ejemplos:
+
+Sería, por ejemplo, el caso de una oferta de empleo discriminatoria por razón de sexo. Si una empresa ofrece un empleo y lo limita a los hombres, entonces el colectivo de las mujeres, cuyos miembros son indeterminables, se ven afectadas en su conjunto (no individualmente), por el hecho de ser potenciales candidatas al referido empleo. 
+
+O el caso de una empresa que realice actividades que signifiquen una vulneración a las prohibiciones de trabajo forzoso o trabajo infantil, respecto de lo cual existen colectivos afectados por tales prácticas, por ejemplo, en el reclutamiento de las personas para tales actividades prohibidas. 
+
+En estos casos, la gravedad es tan grande y la dificultad de defensa mayor, que la NLPT atribuye legitimidad, como vimos, a cualquier sindicato, una organización sin fines de lucro, la Defensoría del Pueblo y el Ministerio Público.
+
+---
+# Los DC en sentido estricto, ejemplos:
+
+Estos tres mismos casos también podrían ser ejemplos de derechos colectivos en sentido estricto si en algún momento los miembros del grupo terminan vinculados jurídicamente. 
+
+Sería el caso de los grupos seleccionados para etapas posteriores de contratación o reclutamiento, o si es que luego se llega a materializar relaciones laborales concretas. 
+
+---
+# Los DC en sentido estricto, ejemplos:
+
+Más ejemplos: grupos de trabajadores que sufren discriminación por sexo, o los grupos que se encuentran bajo una relación laboral prohibida de trabajo forzoso o trabajo infantil. 
+
+Otros ejemplos de derechos colectivos en sentido estricto serían los casos vinculados (en su faceta colectiva) a la libertad sindical, negociación colectiva, huelga, seguridad y salud en el trabajo, en tanto sea el grupo en su conjunto el afectado.
+
+---
+# Los derechos individuales homogéneos
+
+Y en cuanto a los derechos individuales homogéneos (derechos subjetivos individuales, divisibles, de titularidad de los miembros del grupo, categoría o clase, que provienen de un origen común) serían los más. 
+
+El derecho pertenece a cada individuo. 
+
+Lo colectivo, en estos casos, reside en el modo (colectivo) de buscar una tutela uniforme para los miembros del grupo. Tutela uniforme que se justifica en el hecho común. 
+
+Hecho común que no significa exactamente el mismo hecho físico, sino el mismo hecho lesivo. 
+
+---
+# Los DIH, ejemplos
+
+Por ejemplo, el despido de un grupo de trabajadores a partir del alegato de que la empresa no puede seguir funcionando. A pesar de que las cartas de despido puedan ser de fechas diferentes, el hecho lesivo sería el mismo pues a todo el grupo se le da el mismo tratamiento (se le despide) a partir de un mismo hecho lesivo: alegar una misma causa de despido no sustentada en la ley.
+
+---
+# La sentencia
+
+El tercer elemento es la sentencia que proyecta su solución al colectivo. 
+.box-inv-4.tiny[
+Aquí se revela la finalidad multiplicadora del proceso colectivo: un proceso iniciado por cualquier legitimado que se proyecta sobre cualquiera de los tres tipos de derecho colectivo. 
+
+Evidentemente, si la demanda es declarada fundada no se produce mayor debate pues ello beneficiará al colectivo en su conjunto, independiente que, en el caso de los derechos individuales homogéneos, alguno de los beneficiarios no reclame lo que le corresponda o incluso lo rechace. Nada de eso menoscaba los alcances de la sentencia. 
+
+La discusión puede producirse más bien cuando la sentencia desestima la pretensión en el fondo. Sobre ello la NLPT no da una respuesta expresa. Esta ausencia de regulación expresa del punto, sin embargo, no significa que se deje de lado la necesaria conexión que debe haber con los principios y valores recogidos en su título preliminar, dentro de los cuales prima el concepto de acceso a la justicia, por lo cual, una interpretación conforme a esos valores permitiría que el alcance de la cosa juzgada se circunscriba únicamente a quienes promovieron la demanda finalmente desestimada, pues de lo contrario el efecto multiplicador de acceso a la justicia que anima la instauración de los procesos colectivos resultaría contraproducente.
+]
+
+---
+# El artículo 18
+
+La demanda de liquidación de derechos individuales.
+
+.box-inv-4.smaller[
+Artículo 18.- Demanda de liquidación de derechos individuales
+
+Cuando en una sentencia se declare la existencia de afectación de un derecho que corresponda a un grupo o categoría de prestadores de servicios, con contenido patrimonial, los miembros del grupo o categoría o quienes individualmente hubiesen sido afectados pueden iniciar, sobre la base de dicha sentencia, procesos individuales de liquidación del derecho reconocido, siempre y cuando la sentencia declarativa haya sido dictada por el Tribunal Constitucional o la Corte Suprema de Justicia de la República, y haya pasado en autoridad de cosa juzgada.
+
+En el proceso individual de liquidación del derecho reconocido es improcedente negar el hecho declarado lesivo en la sentencia del Tribunal Constitucional o de la Corte Suprema de Justicia de la República. El demandado puede, en todo caso, demostrar que el demandante no se encuentra en el ámbito fáctico recogido en la sentencia.
+]
+
+---
+# La demanda de liq. der. indv.
+
+.box-inv-4.tiny[
+El artículo 18 –la demanda de liquidación de derechos individuales– se inspiró en la doctrina del Tribunal Constitucional del estado de cosas inconstitucionales. Que se haya inspirado no significa que haya terminado siendo lo mismo. 
+
+La idea detrás del artículo 18 es la posibilidad (no la obligación, no la necesidad) de multiplicar los efectos (benéficos) de una sentencia (del Tribunal Constitucional o de la Corte Suprema) fundamentada en el reconocimiento de un hecho lesivo que afecta a más de una persona prestadora de servicios. El propósito es utilizar (por los propios afectados, por cada uno de ellos, individualmente o en litisconsorcio) el reconocimiento del hecho lesivo que les afecta. Esta idea se sustenta en el principio de igualdad en la aplicación de la ley y hace tributo al valor de la predictibilidad de las decisiones judiciales.
+
+En este escenario, sí hay un propósito nuevo: que la demanda sirva para multiplicar los efectos de una anterior y, en ese sentido, demandar directamente la liquidación del derecho que le corresponde a cada quien. En este escenario el nuevo demandante pide directamente el pago de la suma de dinero que a él le corresponda, donde ya no es necesario discutir la existencia del hecho lesivo pues este ya viene recogido en la sentencia que se aprovecha. Aquí el propósito de la demanda es liquidar lo que le toca a cada quien, a partir de los fundamentos de una sentencia previa.
+]
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+
+.box-4.medium[pgparede@pucp.pe]
+

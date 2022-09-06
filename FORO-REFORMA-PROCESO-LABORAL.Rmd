@@ -1,0 +1,311 @@
+---
+title: "Reforma proceso laboral"
+author: "Paul Paredes"
+date: "26 de noviembre de 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Reforma del proceso laboral
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+.small[26 de noviembre, 2021]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la exposición
+
+--
+
+.box-4.small[La (necesidad de) reforma de los procesos laborales en América Latina]
+
+--
+
+.box-4.small[Las herramientas para la reforma procesal]
+
+--
+
+.box-4.small[Modelos de procesos laborales]
+
+--
+
+.box-4.small[Algunos puntos para discutir]
+
+---
+
+layout: false
+name: necesidad-reforma
+class: center middle section-title section-title-4 animated fadeIn
+
+# La (necesidad de) reforma del proceso laboral
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Necesidad de la reforma?
+
+--
+
+.box-inv-4.medium[Proceso breve y sencillo]
+
+.box-inv-4.medium[Acceso a la justicia]
+
+.box-inv-4.medium[Medidas de protección]
+
+
+---
+
+layout: false
+name: herramientas
+class: center middle section-title section-title-4 animated fadeIn
+
+# Las herramientas para la reforma del proceso laboral
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# Herramientas
+
+--
+
+.box-inv-4.medium[Oralidad]
+
+--
+
+.box-inv-4.medium[Uso *intensivo* de la tecnología]
+
+--
+
+.box-inv-4.medium[**Especialización operadores, formación** (norma, valores, finalidad)]
+
+--
+
+.box-inv-4.medium[Rol protagónico del juez]
+
+---
+
+layout: false
+name: modelos
+class: center middle section-title section-title-4 animated fadeIn
+
+# Modelos de procesos laborales
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Qué modelo de proceso laboral?
+
+
+.box-4[El Código Civil francés de 1804]
+
+--
+
+&nbsp;
+
+.box-4.normal["1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."]
+
+.box-inv-4.normal["Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".]
+
+---
+
+# ¿Por qué un proceso laboral?
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+
+# Tres datos
+
+.box-4.normal[Tres datos como respaldo epistémico a la desigualdad de las relaciones jurídicas laborales en el Perú]
+
+.box-inv-4.normal[Informalidad laboral: en 2015, 55.5%; en microempresas, 88.7%]
+
+.box-inv-4.normal[Contratos a plazo fijo: 78% fijos vs. 22% indeterminado]
+
+.box-inv-4.normal[Sindicación y cobertura de la negociación colectiva: 6% y 5.1%, respectivamente]
+
+---
+
+# Couture (1979)
+
+--
+
+&nbsp;
+
+.box-inv-4.normal[Un nuevo Derecho procesal, extraño a todos los principios tradicionales, sin exceptuar uno solo de ellos, ha debido surgir para establecer, mediante una nueva desigualdad, la igualdad perdida por la distinta condición que tienen en el orden económico de la vida, los que ponen su trabajo como sustancia del contrato, y los que se sirven de él para la satisfacción de sus intereses.]
+
+---
+
+# Proceso laboral
+
+.box-inv-4.medium[Desigualdad como fundamento del proceso laboral (dos perspectivas)]
+
+.pull-left[
+.box-4.normal[La desigualdad material y la igualdad por compensación]
+]
+
+.pull-right[
+.box-4.normal[La igualdad en el principio dispositivo, pero donde se reconoce que las partes no son soberanas ni iguales]
+]
+
+---
+
+# Proceso laboral. Dos modelos
+
+--
+
+&nbsp;
+
+.pull-left[
+.box-inv-4.medium[**DE** la igualdad (formal) de las partes y el juez espectador]
+]
+
+.pull-right[
+.box-4.medium[**A** la igualdad efectiva de las partes (a través de la ley) y el juez director del proceso]
+]
+
+---
+
+# Proceso y prueba. Dos modelos
+
+--
+
+.pull-left[
+.box-inv-4.normal[**DEL** proceso como mero mecanismo de resolución de conflictos, dependiente de la habilidad del abogado alejado de la verdad (verdad como persuasión)]
+]
+
+.pull-right[
+.box-4.normal[**AL** proceso como solución de conflictos aplicando Derecho a los hechos ocurridos en la realidad (verdad como correspondencia)]
+]
+
+---
+
+layout: false
+name: propuestas
+class: center middle section-title section-title-4 animated fadeIn
+
+# Algunos puntos para discutir
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Qué hacer y cómo? 
+
+--
+
+.box-inv-1.normal[Mecanismos de aceleración]
+
+--
+
+.box-inv-2.normal[Conciliación]
+
+--
+
+.box-inv-3.normal[Casación: modelo de Corte Suprema]
+
+--
+
+.box-inv-4.normal[Tipos de procesos]
+
+--
+
+.box-inv-5.normal[Ejecución]
+
+---
+
+# ¿Qué hacer y cómo?
+
+--
+
+.box-inv-5.normal[Medidas cautelares]
+
+--
+
+.box-inv-4.normal[Prueba]
+
+--
+
+.box-inv-3.normal[Contencioso administrativo]
+
+--
+
+.box-inv-2.normal[Defensa pública]
+
+--
+
+.box-inv-1.normal[Ejecución de laudos económicos]
+
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+
+.box-4.medium[pgparede@pucp.pe]
+

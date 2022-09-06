@@ -1,0 +1,426 @@
+---
+title: "Presunciones y proceso laboral"
+author: "Paul Paredes"
+date: "25 de agosto de 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides3.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Presunciones y proceso laboral
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+**Área de Capacitaciones**
+
+.light.small[Corte Superior de Justicia de Cajamarca<br>
+25 de agosto de 2022]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la ponencia
+
+--
+
+.box-4.small[Planteamiento del problema]
+
+--
+
+.box-4.small[Cómo abordar el problema]
+
+--
+
+.box-4.small[Casos prácticos]
+
+---
+
+layout: false
+name: planteamiento
+class: center middle section-title section-title-4 animated fadeIn
+
+# Planteamiento del problema
+
+---
+class: middle
+
+.box-4.large[¿Para qué sirve la prueba?]
+
+--
+
+.box-inv-4.large[Para conocer el mundo]
+
+---
+class: middle
+
+.box-4.large[¿Qué se prueba?]
+
+--
+
+.box-4.large[Hechos]
+
+--
+
+.box-inv-4.large[Mejor:<br>afirmaciones sobre los hechos]
+
+---
+class: middle
+
+.pull-left[
+
+.box-4.medium[Gato]
+
+.box-4.medium[Manzana]
+
+.box-4.medium[Lluvia]
+
+]
+
+--
+
+.pull-right[
+
+.box-4.medium[Apropiación]
+
+.box-4.medium[Subordinación]
+
+.box-4.medium[Mayor de edad]
+
+
+]
+
+---
+class: middle
+
+.box-inv-1.large["Juan es trabajador de la CSJ de Cajamarca"]
+
+--
+
+.box-inv-2.large["María se ha apropiado de S/100.00"]
+
+---
+class: middle
+
+.box-4.large[¿Cuáles son los HECHOS RELEVANTES en una causa?]
+
+--
+
+.box-inv-4.large[UNIDADES que componen el SH de la norma]
+
+
+---
+class: middle
+
+.box-4.large[¿Incluye "culpa" en Resp. AT?]
+
+--
+
+.box-4.large[¿Elemento omnipresente?]
+
+--
+
+.box-inv-4.large[El vínculo laboral]
+
+---
+class: middle
+
+.box-4.large["Reposición"]
+
+--
+
+<br>
+
+.center.float-left[
+
+.box-1[1EVL] + .box-2[2ECPI] + .box-3[3SPP] + .box-5[4M4HD] + .box-6[5D]
+
+vs.
+
+.box-7[6ECJD]
+
+]
+
+---
+class: middle
+
+.box-4.large[¿Cómo conocer esos hechos?]
+
+--
+
+.center.float-left[.box-4[Ignorancia] .box-4[Falta de información] .box-4[inconsistencia]]
+
+---
+class: middle
+
+.box-4.large[Verdad]
+
+--
+
+.center.float-left[.box-3[Tesis 1] .box-3[auto convicción juez] .box-3[persuasión] .box-3[irracional]]
+
+--
+
+.center.float-left[.box-2[Tesis intermedia] .box-2["Justified True Belief]]
+
+--
+
+.center.float-left[.box-inv-4[Tesis 2] .box-inv-4[correspondencia] .box-inv-4[motivación]]
+
+---
+class: middle
+
+.box-4.large[Valores en el proceso]
+
+--
+
+.box-inv-4[Verdad]
+
+--
+
+.box-inv-4[Cosa juzgada]
+
+--
+
+.box-inv-4[Celeridad]
+
+--
+
+.box-inv-4[Tutela derechos]
+
+---
+class: middle
+
+.box-4.large[En el proceso]
+
+--
+
+.box-inv-4[Herramientas]
+
+--
+
+.box-inv-4[Facultades]
+
+--
+
+.box-inv-4[Deberes]
+
+--
+
+.box-inv-4[Derechos]
+
+---
+class: center middle section-title section-title-4 animated fadeIn
+
+# Las presunciones
+
+---
+class: middle, inverse
+
+.small[
+> "**La presunción** es una herramienta usada en la prueba de los hechos en juicio para permitir que una proposición (una afirmación de hecho) sea considerada como un elemento de juicio (un elemento de prueba) en un caso, aun cuando el argumento que apoya dicha proposición no es suficientemente sólido para alcanzar el estándar de prueba requerido. (...). **La carga de la prueba** fija un estándar para determinar lo que se considera probado, en el razonamiento probatorio en el derecho".
+
+> Douglas Walton, Burden of Proof, Presumption and Argumentation, Cambridge UP, p. 1.
+]
+
+---
+class: middle
+
+.center.float-left[.box-1[Hecho Base] + .box-4[Enlace epistémico] >> .box-3[Hecho presumido]]
+
+--
+
+<br>
+
+.center.float-left[.box-1[Hecho Base] + .box-inv-4[Enlace normativo] >> .box-3[Hecho presumido]]
+
+---
+class: middle
+
+.center.float-left[.box-4[Enlace epistémico] = .box-4[Presunciones simples] .box-4[Presunciones judiciales] .box-4[Prueba por indicios] .box-4[Medios prueba indirectos]]
+
+--
+
+<br>
+
+.center.float-left[.box-inv-4[Enlace normativo] = .box-inv-4[P. *iuris tantum*] .box-inv-4[P. *iure et de iure*] .box-inv-4[Verdades interinas]]
+
+---
+class: center middle section-title section-title-4 animated fadeIn
+
+# Casos prácticos
+
+---
+class: middle
+
+.box-4.medium[La rebeldía (art. 43, inc. 1, NLPT)]
+
+--
+
+.box-4.medium[Silencio del demandado (art. 19, segundo párrafo)]
+
+--
+
+> "(...).  Si el demandado no niega expresamente los hechos expuestos en la demanda, estos son considerados admitidos". 
+
+---
+class: middle
+
+.box-4.medium[La prueba del vínculo laboral (art. 23.2)]
+
+--
+.small[
+> 23.2 Acreditada la prestación personal de servicios, se presume la existencia de vínculo laboral a plazo indeterminado, salvo prueba en contrario".
+]
+
+---
+class: middle
+
+.box-4.medium[La prueba del hecho lesivo (art. 23.5)]
+
+--
+
+.small[
+> 23.5 En aquellos casos en que de la demanda y de la prueba actuada aparezcan indicios que permitan presumir la existencia del hecho lesivo alegado, el juez debe darlo por cierto, salvo que el demandado haya aportado elementos suficientes para demostrar que existe justificación objetiva y razonable de las medidas adoptadas y de su proporcionalidad.  
+
+> Los indicios pueden ser, entre otros, las circunstancias en las que sucedieron los hechos materia de la controversia y los antecedentes de la conducta de ambas partes". 
+
+]
+
+--
+
+.pull-left[
+.box-4.small[Las circunstancias es el contexto del caso]
+]
+
+.pull-right[
+.box-4.small[Los antecedentes de la conducta de las partes: una generalización específica del caso]
+]
+
+---
+class: middle
+
+.box-4.medium[Obstaculizar la actividad probatoria (art. 29)]
+
+.small[
+> El juez puede **.rojo[extraer conclusiones]** en contra de los intereses de las partes atendiendo a su **conducta asumida en el proceso**. Esto es particularmente relevante cuando la actividad probatoria es obstaculizada por una de las partes.
+
+> Entre otras circunstancias, se entiende que se **obstaculiza la actuación probatoria** cuando no se cumple con las exhibiciones ordenadas, se niega la existencia de documentación propia de su actividad jurídica o económica, se impide o niega el acceso al juez, los peritos o los comisionados judiciales al material probatorio o a los lugares donde se encuentre, se niega a declarar, o responde evasivamente. 
+]
+
+---
+class: middle
+
+.box-4.medium[El D. Leg. 1310 (antes, el D.L. 25988)]
+
+.small[
+
+> "3.4 Para todo efecto legal, los empleadores están obligados a conservar los documentos y constancias de pago de las obligaciones laborales económicas solamente hasta cinco años después de efectuado el pago".
+
+> DL 25988, art. 5: "Transcurrido el período a que se refiere el párrafo anterior, las empresas podrán disponer de dichos documentos para su reciclaje o destrucción. En todo caso, inclusive en lo relativo a materia laboral, luego de transcurrido el período, corresponderá a la parte que alega un derecho su probanza".
+
+> STC 01113-2011-PA/TC, del 07/10/2011
+
+]
+
+--
+
+.box-inv-4.small[La carga de la prueba del pago recae en quien lo alega]
+
+???
+
++ El argumento de defensa del plazo de cinco (5) años del D. Leg. 1310 no es suficiente para enervar la aplicación de la presunción del art. 29.
+
++ Ello por cuanto la carga de la prueba del pago siempre estará en hombros de quien alega haber pagado.
+
++ El riesgo de la falta de acreditación de la prueba del pago no recae sobre el demandante, sino sobre el demandado.
+
++ Esta regla aplica incluso en una causa civil. 
+
+---
+class: center middle section-title section-title-4 animated fadeIn
+
+# Prueba y proceso laboral
+
+---
+class: middle, inverse
+
+.small[
+> # El Código Civil francés de 1804
+
+> "1781. Le maître est cru sur son affirmation, Pour la quotité des gages; Pour le paiement du salaire de l'année échue; Et pour les à-comptes donnés pour l'année courante."
+
+> "Al patrón se le cree por su dicho, en cuanto al monto de los salarios; en cuanto al pago del salario del año vencido; y en cuanto a lo que diga haber dado a cuenta por el año corriente".
+]
+
+---
+class: middle, inverse
+
+.small[
+> # El Código Civil español de 1889
+
+> "Artículo 1584.
+> (...).
+> El amo será creído, salvo prueba en contrario:
+
+> 1.º Sobre el tanto del salario del sirviente doméstico.
+
+> 2.º Sobre el pago de los salarios devengados en el año corriente.
+
+]
+
+---
+class: middle
+
+.box-4.large[¿Por qué un proceso laboral?]
+
+--
+
+.box-inv-4[Porque hay situaciones de desigualdad sobre las cuales se hace necesario llamar la atención para gozar (acceder) efectivamente a los derechos que un ordenamiento ofrece.]
+
+---
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Gracias por su atención!
+
+.box-4.medium[pgparede@pucp.pe]

@@ -1,0 +1,482 @@
+---
+title: "Principios del proceso laboral"
+author: "Paul Paredes"
+date: "25 de noviembre de 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: "libs"
+    chakra: "libs/remark-latest.min.js"
+    css: ["default", "css/ath-slides2.css", "css/mi-css.css", "css/ath-inferno-fonts.css", "css/animate.css"]
+    seal: false
+    includes:
+      in_header: "html/fancy-fonts.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: true
+    self_contained: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+xaringanExtra::use_share_again()
+```
+
+```{r, echo=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+class: center middle main-title section-title-4
+
+# Principios y fundamentos del proceso laboral
+
+.class-info[
+
+.medium[**Paul Paredes**]
+
+CEC | Departamento Académico de Derecho
+
+.light.small[Pontificia Universidad Católica del Perú<br>
+25 de noviembre, 2021]
+
+]
+
+---
+
+name: outline
+class: title title-4
+
+# Plan de la clase
+
+--
+
+.box-4.small[Principios y fundamentos]
+
+--
+
+.box-4.small[Privilegio del fondo sobre la forma]
+
+--
+
+.box-4.small[La subsanación y la suplencia]
+
+--
+
+.box-4.small[Las nulidades procesales]
+
+---
+
+layout: false
+name: mario-pasco
+class: center middle section-title section-title-4 animated fadeIn
+
+# Principios y fundamentos en la NLPT
+
+---
+
+layout: true
+class: title title-4
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo I.- Principios del proceso laboral**
+
+El proceso laboral se inspira, entre otros, en los principios de inmediación, oralidad, concentración, celeridad, economía procesal y veracidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo II.- Ámbito de la justicia laboral**
+
+Corresponde a la justicia laboral resolver los conflictos jurídicos que se originan con ocasión de las prestaciones de servicios de carácter personal, de naturaleza laboral, formativa, cooperativista o administrativa; están excluidas las prestaciones de servicios de carácter civil, salvo que la demanda se sustente en el encubrimiento de relaciones de trabajo. Tales conflictos jurídicos pueden ser individuales, plurales o colectivos, y estar referidos a aspectos sustanciales o conexos, incluso previos o posteriores a la prestación efectiva de los servicios.
+]
+---
+# NLPT 
+
+.box-inv-4.normal[**Artículo III.- Fundamentos del proceso laboral**
+
+En todo proceso laboral los jueces deben evitar que la desigualdad entre las partes afecte el desarrollo o resultado del proceso, para cuyo efecto procuran alcanzar la igualdad real de las partes, privilegian el fondo sobre la forma, interpretan los requisitos y presupuestos procesales en sentido favorable a la continuidad del proceso, observan el debido proceso, la tutela jurisdiccional y el principio de razonabilidad. En particular, acentúan estos deberes frente a la madre gestante, el menor de edad y la persona con discapacidad.
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[
+
+Los jueces laborales tienen un rol protagónico en el desarrollo e impulso del proceso. Impiden y sancionan la inconducta contraria a los deberes de veracidad, probidad, lealtad y buena fe de las partes, sus representantes, sus abogados y terceros.
+
+El proceso laboral es gratuito para el prestador de servicios, en todas las instancias, cuando el monto total de las pretensiones reclamadas no supere las setenta (70) Unidades de Referencia Procesal (URP).
+
+]
+
+---
+# NLPT
+
+.box-inv-4.smaller[**SÉTIMO: Del despido nulo por tener la condición y ejercicio de representante sindical.-**
+
+Sobre la presente causal, si bien es verdad que la parte demandante ha señalado su pretensión en base a la aplicacióndel inciso a) del artículo 29° del TUO del Decreto Legislativo 728, LPCL regulado en el D.S. 003-97-TR, pero -al advertir que el trabajador tiene la calidad de representante (dirigente) sindical- se podrá advertir que este colegiado optará (conforme al principio procesal del Iura Novit Curia consagrado en el art. VIII del Título Preliminar del Código Civil) por aplicar el inciso b) del artículo 29° del TUO de la LPCL, al ser la causal aplicable a la presente controversia.
+
+De esta manera, el inciso b) del artículo 29° del TUO del D. Leg. 728, LPCL aprobado por el D.S. 003-97-TR ha regulado en forma expresa que "Es nulo el despido que tenga por motivo (...) ser candidato a representante de los trabajadores o actuar o haber actuado en esa calidad".
+]
+
+---
+# NLPT
+
+.box-inv-4.normal[**Artículo IV.- Interpretación y aplicación de las normas en la resolución de los conflictos de la justicia laboral**
+
+Los jueces laborales, bajo responsabilidad, imparten justicia con arreglo a la Constitución Política del Perú, los tratados internacionales de derechos humanos y la ley. Interpretan y aplican toda norma jurídica, incluyendo los convenios colectivos, según los principios y preceptos constitucionales, así como los precedentes vinculantes del Tribunal Constitucional y de la Corte Suprema de Justicia de la República.
+]
+
+---
+
+layout: false
+class: center middle section-title section-title-4 animated fadeIn
+
+
+# Privilegio del fondo sobre la forma 
+
+.box-inv-4.normal[Interpretación de los requisitos y presupuestos procesales a favor de la continuidad del proceso]
+
+---
+
+layout: true
+class: title title-4
+
+---
+# Informalismo y nulidades procesales
+
+.box-4.small[
+Las formas y sus límites
+]
+
+&nbsp;
+
+.box-inv-4.smaller[
+  + Res. Adm. 014-93-CE-PJ:
+    + Papel A4
+    + Indicar, parte superior derecha de los escritos, en orden descendente:
+      + Nombre del secretario,
+      + Número del expediente,
+      + Cuaderno del expediente en el que el escrito se presenta
+      + Numeración del escrito (130.4 C.P.C.)
+      
+  + Artículos 130 y ss. C.P.C.
+]
+
+---
+# Forma del escrito 
+
+.box-inv-4.tiny[
+Artículo  130.- El escrito que se presente al proceso se sujeta a las siguientes regulaciones:
+
+1. Es escrito en máquina de escribir u otro medio técnico;
+
+2. Se mantiene en blanco un espacio de no menos de tres centímetros en el margen izquierdo y dos en el derecho;
+
+3. Es redactado por un solo lado y a doble espacio;
+
+4. Cada interesado numerará correlativamente sus escritos;
+
+5. Se sumillará el pedido en la parte superior derecha;
+
+6. Si el escrito tiene anexos, éstos serán identificados con el número del escrito seguido de una letra;
+
+7. Se usa el idioma castellano, salvo que la ley o el Juez, a pedido de las partes, autoricen el uso del quechua o del aymara;
+
+8. La redacción será clara, breve, precisa y dirigida al Juez del proceso y, de ser el caso, se hará referencia al número de la resolución, escrito o anexo que se cite; y,
+
+9. Si el escrito contiene otrosíes o fórmulas similares, éstos deben contener pedidos independientes del principal.
+]
+
+---
+# Doctrina
+
+Sentencia Corte Constitucional Colombia T-204 1997
+
+.box-inv-4.smaller[
+“No se pueden sacrificar los referidos derechos, con la exigencia de formalismos extremos que no se acompasan con el mandato constitucional de la efectividad de los derechos y de la prevalencia del derecho sustancial Las formalidades procesales sólo se conciben como medios para garantizar la validez y la eficacia de los actos procesales, en cuanto estos tiendan a la realización de los derechos de los sujetos procesales, más no como simples ritualidades insustanciales.”
+]
+
+---
+# Teoría de las nulidades procesales
+
+STC n.° 00569-2003-AC/TC, fundamento 4. 
+
+Suplencia de los actos procesales deficientes
+
+.box-inv-4.tiny[
+
+Ahora bien, a efectos de determinar qué actos procesales pueden ser objeto de la suplencia, cabe distinguir los actos procesales viciados, en actos defectuosos, actos inválidos, y actos nulos.
+
+Los **actos defectuosos** son aquellos que se realizan sin que concurran todos los presupuestos, requisitos y condiciones que determinan su admisibilidad, pero que no generan afectación de principios o de derechos procesales constitucionales de relevancia y, por ese hecho, son inocuos. Por su parte, los **actos inválidos** son aquellos que se realizan incumpliendo los requisitos y condiciones que la ley prevé, dando lugar, a su vez, a la afectación de derechos o principios constitucionales, pero que, sin embargo, pueden ser subsanados o reparados por sí mismos, o eventualmente por medio de la intervención del juez (Binder Alberto. El incumplimiento de las formas procesales. Ad Hoc, Buenos Aires 2000. Pág. 96). Finalmente, los **actos nulos** son aquellos que, habiendo comprometido seriamente derechos o principios constitucionales, no pueden ser reparados.
+]
+
+---
+# STC n.° 00197-2005-PA/TC
+
+Fundamento 7
+
+.box-inv-4.smaller[
+Con independencia de lo ya afirmado en tomo a la causal que sustentó la nulidad de una de las resoluciones cuestionadas, este Tribunal debe recordar no sólo que la nulidad de los actos procesales está sujeta al principio de legalidad sino, además, que en un Estado Constitucional de Derecho, la nulidad de un acto procesal sólo puede decretarse cuando de por medio se encuentran comprometidos, con su inobservancia, derechos, principios o valores constitucionales. En efecto, la nulidad de los actos procesales no se justifica en la simple voluntad de la ley. No admite una consideración de la nulidad por la simple nulidad, porque así se expresa o porque o es voluntad de la ley, sino porque en el establecimiento de determinadas formalidades que se observen en dichos actos procesales, subyacen bienes constitucionalmente protegidos.
+]
+
+---
+
+# Algunas consecuencias:
+
+.box-inv-4.small[
+1. Subsanación (hacia adelante)
+]
+
+.box-inv-4.small[
+2. Suplencia 
+
+  + Suplencia de los actos procesales deficientes
+  
+    + De la demanda
+  
+    + De la prueba
+]
+
+---
+# Corte IDH, Caso Velásquez Rodríguez. 
+
+Sentencia de 29 de julio de 1988. Serie C No. 4
+
+.box-inv-4.tiny[
+"138. La forma en que la defensa ha sido conducida habría podido bastar para que muchos de los hechos afirmados por la Comisión se tuvieran válidamente por ciertos, sin más, en virtud del principio de que, salvo en la materia penal --que no tiene que ver en el presente caso, como ya se dijo (supra 134-135)--, el silencio del demandado o su contestación elusiva o ambigua pueden interpretarse como aceptación de los hechos de la demanda, por lo menos mientras lo contrario no aparezca de los autos o no resulte de la convicción judicial. La Corte, sin embargo, trató de suplir esas deficiencias procesales, admitiendo todas las pruebas que le fueron propuestas, aun en forma extemporánea, y ordenando de oficio algunas otras. Esto, por supuesto, sin renunciar a sus potestades discrecionales para apreciar el silencio o la inercia de Honduras ni a su deber de valorar la totalidad de los hechos."
+]
+
+También en: Corte I.D.H., Caso Godínez Cruz. Sentencia de 20 de enero de 1989. Serie C No. 5.
+
+
+---
+
+# Suplencia de la demanda
+
+&nbsp;
+
+.box-inv-4.large[¿Petitorio o pretensión implícitos?]
+
+---
+# CAS LAB 16940-2017
+
+(5 de diciembre de 2019)
+
+.box-inv-4.small[
+**Décimo Segundo:** Tal como se ha descrito, la litis ha discurrido respecto a la reposición por un despido incausado, al haberlo así propuesto el actor en su escrito de demanda, mas no, la desnaturalización de los contratos, lo que no importó que se ejerza también la defensa en dicho sentido, lo que conlleva a establecer que al haberse sentenciado, y otorgado el derecho por una pretensión no postulada, como es el caso de la desnaturalización de los contratos, se ha violentado el principio de congruencia procesal y por ende el debido proceso. 
+]
+
+???
+
+1. Una propuesta de solución
+
++ Las oraciones y las proposiciones en el derecho
+
++ Las oraciones: conjunto de símbolos lingüísticos con sentido completo:
+  + [ ] UNMSM
+  + [ ] deseoso Lima estaba fruta aromática en otro
+  + [ ] La Ciudad Blanca es la capital de Perú
+
+2. Una propuesta de solución
+
++ Es usual distinguir entre oraciones asertivas (descriptivas::proposiciones) (V/F) y oraciones directivas (prescriptivas::normas) (Jus/Inj; Vál/Inv; Efi/Inef)
+
+  + [ ] Juan trabaja en el Poder Judicial
+  + [ ] María es mayor de edad
+  + [ ] Está prohibido fumar en clase
+  + [ ] Quien por dolo causa un daño a otro está obligado a repararlo
+
+3. Una propuesta de solución
+
+Las proposiciones son el significado expresado por las oraciones asertivas
+
+  + María tiene 25 años de edad.
+  + La edad de María es de 25 años.
+  + Hace 25 años nació María.
+  + María le lleva 3 años a su hermano Jorge quien ya tiene 22 años cumplidos.
+  + No veo a María desde que cumplió 20 años. Han pasado 5 años desde ese entonces.
+
++ Varias oraciones asertivas pueden expresar la misma proposición
+
++ Los razonamientos se dan entre las proposiciones.
+
+  =
+
++ Las premisas de los razonamientos son proposiciones y de estas se infiere otra proposición que es la conclusión.
+
++ Las premisas y conclusiones permiten construir cadenas argumentativas, conformadas por proposiciones.
+
+---
+
+# Una propuesta de solución (1)
+
+.box-inv-4[Una conclusión no es sino una proposición derivada de una cadena argumentativa (los razonamientos) integrada por una serie de proposiciones.]
+
+.box-inv-4[Esa conclusión podría ser el petitorio o la pretensión.]
+
+---
+
+# Una propuesta de solución (2)
+
+.box-inv-4[¿Qué significaría la suplencia de la demanda en este contexto?]
+
+--
+
+.box-4["La determinación de la cadena de proposiciones]
+
+--
+
+.box-inv-4[¿Qué sería el petitorio implícito?]
+
+--
+
+.box-inv-4["La cadena de proposiciones que deriva **en** la pretensión explícita."]
+
+---
+class: animated, slideInRight
+layout: false
+
+
+![](https://raw.githubusercontent.com/PaulParedes/materiales/master/mermaid-implicito.svg)
+
+---
+
+layout: true
+class: title title-4
+
+---
+
+# ¿Petitorio o pretensión implícitos?
+
+.box-inv-4.medium[CAS LAB 16940-2017 (5 de diciembre de 2019)]
+
+.box-inv-4[El "petitorio implícito" ¿afecta la congruencia?]
+
+.box-inv-4[El "petitorio implícito" ¿vulnera el derecho de defensa?]
+
+
+???
+
+<ol>
+<li> Suplencia de la demanda
+  + Enfoque desde las proposiciones en el derecho
+  + Los razonamientos se dan entre las proposiciones
+  + Las premisas de los razonamientos son proposiciones y de esas se infiere otra proposición que es la conclusión; y así, se construye una cadena argumentativa.
+  + .red[En el caso:] la conclusión sería el petitorio o pretensión
+  + entonces, la suplencia de la demanda sería
+</ol>
+> determinar la cadena de proposiciones que deriva .red[en] la pretensión explícita
+
+
+---
+# Otras consecuencias
+
+.box-4.smaller[Impulso de oficio (¿abandono?; art. 30 NLPT)]
+
+.box-inv-4.smaller[
+
+Artículo 30.- Formas especiales de conclusión del proceso
+
+El proceso laboral puede concluir, de forma especial, por conciliación, allanamiento, reconocimiento de la demanda, transacción, desistimiento o abandono. También concluye cuando ambas partes inasisten por segunda vez a cualquiera de las audiencias programadas en primera instancia.
+
+(...)
+
+El abandono del proceso se produce transcurridos cuatro (4) meses sin que se realice acto que lo impulse. El juez declara el abandono a pedido de parte o de tercero legitimado, en la segunda oportunidad que se solicite, salvo que en la primera vez el demandante no se haya opuesto al abandono o no haya absuelto el traslado conferido.
+]
+---
+# Sentencia
+
+.box-4.small[Fallo ultra y extra petita]
+
+.box-inv-4.small[Congruencia y derecho de defensa]
+
+.box-inv-4.small[Motivación]
+  
+---
+# Artículo 31
+
+Contenido de la sentencia 
+
+.box-inv-4.tiny[
+El juez recoge los fundamentos de hecho y de derecho esenciales para motivar su decisión.
+La existencia de hechos admitidos no enerva la necesidad de fundamentar la sentencia en derecho.
+
+La sentencia se pronuncia sobre todas las articulaciones o medios de defensa propuestos por las partes y sobre la demanda, en caso de que la declare fundada total o parcialmente, indicando los derechos reconocidos, así como las prestaciones que debe cumplir el demandado. Si la prestación ordenada es de dar una suma de dinero, la misma debe estar indicada en monto líquido. El juez puede disponer el pago de sumas mayores a las demandadas si apareciere error en el cálculo de los derechos demandados o error en la invocación de las normas aplicables.
+
+Tratándose de pretensiones con pluralidad de demandantes o demandados, el juez debe pronunciarse expresamente por los derechos y obligaciones concretos que corresponda a cada uno de ellos. 
+
+El pago de los intereses legales y la condena en costos y costas no requieren ser demandados. Su cuantía o modo de liquidación es de expreso pronunciamiento en la sentencia.
+]
+
+---
+# Resumen
+
+.box-4.smaller[Privilegio del fondo sobre la forma]
+
+.box-4.smaller[Interpretación de los requisitos y presupuestos procesales a favor de la continuidad del proceso]
+
+.box-4.tiny[Las formas y sus límites]
+
+.center.float-left[
+.box-inv-4.tiny[Res. Adm. 014-93-CE-PJ (Papel A4)]
+.box-inv-4.tiny[Art. 130° y ss. C.P.C.]
+.box-inv-4.tiny[Sentencia de la Corte Constitucional Colombia T-204 1997]
+.box-inv-4.tiny[Corte IDH, Caso Velásquez Rodríguez, sentencia 29 julio 1988]
+.box-inv-4.tiny[Corte IDH, Caso Godínez Cruz, sentencia 20 enero 1989]
+]
+
+.box-4.tiny[Las nulidades procesales]
+
+.center.float-left[
+.box-inv-4.tiny[STC 00197-2005-PA/TC, fund. 7]
+.box-inv-4.tiny[STC 00569-2003-AC/TC, fund. 4]
+]
+
+.box-4.smaller[Actos defectuosos ...> actos inocuos]
+
+.box-4.smaller[Actos inválidos ...> subsanación o suplencia]
+
+.box-4.smaller[Actos nulos ...> ni subsanación ni suplencia]
+
+---
+# Resumen
+
+.box-4.small[Consecuencias de la aplicación de los principios estudiados]
+
+.box-inv-4.smaller[No observar falta de requisitos ante actos inocuos]
+.box-inv-4.smaller[Subsanación (hacia adelante)]
+.box-inv-4.smaller[Apercibimientos diferentes a la conclusión]
+.box-inv-4.smaller[Suplencia de los actos procesales deficientes]
+
+.box-4.small[Otras consecuencias]
+
+.box-inv-4.smaller[Impulso de oficio]
+.box-inv-4.smaller[Sentencia: Fallo *ultra y extra petita*]
+.box-inv-4.smaller[Sentencia: Congruencia y derecho de defensa]
+
+---
+
+layout: false
+name: gracias
+class: center middle section-title section-title-4 animated fadeIn
+
+# ¡Muchas gracias!
+
+
+.box-4.medium[pgparede@pucp.pe]
+
